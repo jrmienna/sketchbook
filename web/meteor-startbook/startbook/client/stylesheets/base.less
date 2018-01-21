@@ -1,0 +1,99 @@
+@pagelet-blue-light: #4F6AA0;
+@pagelet-blue-dark: #3C5A96;
+@body-color: #E9EAED;
+
+@navbar-height: 42px;
+
+body {
+  background: @body-color;
+}
+
+.navbar-start {
+
+  background: linear-gradient(@pagelet-blue-light, @pagelet-blue-dark);
+  min-height: @navbar-height;
+  max-height: @navbar-height;
+        
+  li a {
+    color: white;
+    padding: 11px;
+    font-size: 12px;
+  }
+  .navbar-brand {
+    color: white;
+    padding: 7px 0px;
+    margin-right: 6px;
+    font-size: 28px;
+  }
+  .navbar-form {
+    padding: 0;
+    input {
+      width: 400px;
+      height: 26px;
+      font-size: 14px;
+      border: none;
+    }
+  }
+}
+
+.wrapper {
+  padding-top: 42px;
+}
+
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  padding: 0;
+
+  border-left: 1px solid #CCC;
+  -webkit-box-shadow: 1px 0 0 #f0f0f2 inset;
+  -webkit-background-clip: padding-box;
+  overflow-y: auto;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 205px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+  li {
+    text-indent: 6px;
+    line-height: 36px;
+    font-size: 14px;
+    display: list-item;
+    width: 100%;
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        text-decoration: none;
+        background: #E5E5E5;
+        border-top: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+      }
+      &:active, &:focus {
+        text-decoration: none;
+      }
+    }
+  }  
+}
+
+
+@media(min-width:768px) {
+    #sidebar-wrapper {
+        width: 205px;
+    }
+}

@@ -1,0 +1,124 @@
+@import 'variables';
+.editor.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.editor.content {
+    // position: relative; // Fixes cursor position
+    margin: 0;
+    padding: {
+        top: 80px;
+        bottom: 360px;
+        left: $editor-margin-width;
+        right: 20px;
+    }
+    * {
+        line-height: 1.6;
+    }
+    img {
+        max-width: 100%;
+        padding: 5px;
+    }
+    font-family: $font-family-editor;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    -webkit-font-variant-ligatures: normal;
+    font-variant-ligatures: normal;
+    .cledit-section {
+        font-family: inherit;
+    }
+    .discussion-highlight,
+    .find-replace-highlight {
+        background-color: transparentize(#FFE400, 0.5);
+    }
+    .hide {
+        display: none;
+    }
+    &.monospaced {
+        font-family: $font-family-monospace !important;
+        font-size: $font-size-monospace !important;
+        * {
+            font-size: inherit !important;
+        }
+    }
+}
+
+.preview.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    * {
+        line-height: 1.5;
+    }
+    img,
+    table {
+        max-width: 100%;
+    }
+}
+
+.preview.content {
+    margin: 0;
+    padding: {
+        bottom: 360px;
+        left: 1050px;
+        right: 1020px;
+    }
+    & > .filename.space {
+        min-height: 45px;
+        font-size: 32px;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+        padding: 6px 0 6px 70px;
+        line-height: 1;
+        text-align: right;
+        letter-spacing: -0.03em;
+        margin-bottom: 30px;
+        visibility: hidden;
+    }
+    .cl-preview-section >:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+        text-align: justify;
+    }
+}
+
+.toc.content {
+    font-size: 9px;
+    color: #4a4a4a;
+    text-shadow: 0 1px #e8e8e8;
+    cursor: pointer;
+    padding: 30px;
+    white-space: nowrap;
+    * {
+        font-weight: normal;
+    }
+    .cl-toc-section * {
+        margin: .3em 0;
+    }
+    h2 {
+        padding-left: 8px;
+    }
+    h3 {
+        padding-left: 16px;
+    }
+    h4 {
+        padding-left: 24px;
+    }
+    h5 {
+        padding-left: 32px;
+    }
+    h6 {
+        padding-left: 40px;
+    }
+    &.empty::before {
+        font-size: 14px;
+        content: 'No table of contents available.';
+    }
+}

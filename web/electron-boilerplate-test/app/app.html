@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Electron Boilerplate</title>
+
+    <link href="./stylesheets/main.css" rel="stylesheet" type="text/css">
+
+    <script src="vendor/electron_boilerplate/env_config.js"></script>
+    <script src="vendor/electron_boilerplate/context_menu.js"></script>
+    <script src="vendor/electron_boilerplate/external_links.js"></script>
+
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <!--
+        <h1 id="greet"></h1>
+        <p class="subtitle">
+            Welcome to <a href="http://electron.atom.io" class="js-external-link">Electron</a> app running on this magnificent <strong id="platform-info"></strong> machine.
+        </p>
+        <p class="subtitle">
+            You are in <strong id="env-name"></strong> environment.
+        </p>
+        <webview id="foo" partition="evernote" src="https://www.evernote.com/Login.action?targetUrl=%2FHome.action" style="
+            display:inline-block;
+            box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+            width:500px;
+            height:600px;"></webview>
+        <webview id="foo" partition="twitter" src="https://mobile.twitter.com/compose/tweet" style="
+            display:inline-block;
+            box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+            width:400px;
+            height:600px;"></webview>
+        <webview id="foo" class="webview" src="https://getpocket.com/a/queue/" style="
+            display:inline-block;
+            width:400px;
+            height:600px;"></webview>
+        <webview id="foo" partition="messenger" src="https://www.messenger.com/t/jonaskrokan" style="
+            display:inline-block;
+            width:400px;
+            height:600px;"></webview>
+        <webview id="foo" partition="messenger" src="https://www.slack.com" style="
+            display:inline-block;
+            width:400px;
+            height:600px;"></webview>
+        <div class="webview-wrapper">
+            <webview id="foo" partition="inbox" src="https://inbox.google.com" style="
+                display:inline-block;
+                width:780px;
+                height:600px;"></webview>
+        </div>
+    -->
+        <webview id="foo" partition="paper" src="https://paper.dropbox.com" style="
+            display:inline-block;
+            width:980px;
+            height:700px;"></webview>
+
+    <!--
+        <div class="card">
+            <div class="head">
+                <div class="left">
+                    <div class="title">Task title</div>
+                </div>
+                <div class="right">
+                    <div class="icon">X</div>
+                </div>
+            </div>
+            <div class="webview-wrapper">
+                <webview id="foo" partition="inbox" src="https://calendar.sunrise.am/" style="
+                    width: 100%;
+                    height: 100%;
+                    display:inline-block;"></webview>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <div class="center">
+                <div class="tab email">Mail</div>
+                <div class="tab notes">Notes</div>
+                <div class="tab todos">Todos</div>
+                <div class="tab calendar">Calendar</div>
+            </div>
+        </div>
+        -->
+    </div>
+
+    <script>
+        onload = function() {
+            var webview = document.getElementById("foo");
+            var indicator = document.querySelector(".indicator");
+
+            var loadstart = function() {
+                indicator.innerText = "loading...";
+            }
+            var loadstop = function() {
+                indicator.innerText = "";
+            }
+            webview.addEventListener("did-start-loading", loadstart);
+            webview.addEventListener("did-stop-loading", loadstop);
+        }
+
+        var remote = require('remote');
+        var Menu = remote.require('menu');
+        var MenuItem = remote.require('menu-item');
+
+        var menu = new Menu();
+        menu.append(new MenuItem({
+            label: 'Copy',
+            accelerator: 'Command+C',
+            selector: 'copy:'
+        }));
+        menu.append(new MenuItem({
+            label: 'Paste',
+            accelerator: 'Command+V',
+            selector: 'paste:'
+        }));
+
+        window.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+            menu.popup(remote.getCurrentWindow());
+        }, false);
+    </script>
+
+</body>
+</html>

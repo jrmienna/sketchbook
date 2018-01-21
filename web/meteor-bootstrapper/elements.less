@@ -1,0 +1,78 @@
+.draggable {
+  cursor: grab;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: -o-grab;
+
+  &.ui-draggable-dragging {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+    cursor: -o-grabbing;
+    outline: skyblue dotted medium;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+  }
+}
+
+.panel {
+  width: 200px;
+  height: 200px;
+  resize: both;
+  .panel-heading {
+  }
+}
+
+@container-color: #EEE;
+@col-color: #888;
+@row-color: #AAA;
+
+.row {
+  min-height: 40px;
+  background-color: @row-color;
+  &:hover {
+    background-color: darken(@row-color, 10%);
+  }
+  &.dragging {
+  }
+}
+
+.col {
+  min-height: 40px;
+  background-color: @col-color;
+  &:hover {
+    background-color: darken(@col-color, 20%);
+  }
+  &.dragging {
+  }
+}
+
+.container {
+  background-color: @container-color;
+  &:hover {
+    /*background-color: darken(@container-color, 5%);*/
+  }
+  &.dragging {
+  }
+}
+
+.dropzone {
+  -webkit-transition: background 0.25s linear;
+  -moz-transition: background 0.25s linear;
+  -ms-transition: background 0.25s linear;
+  -o-transition: background 0.25s linear;
+  transition: background 0.25s linear;
+
+  &.dragging {
+    -moz-box-shadow:    inset 0 0 10px rgba(0,0,0, 0.5);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0, 0.5);
+    box-shadow:         inset 0 0 10px rgba(0,0,0, 0.5);
+
+    -webkit-transition: background 0.25s linear;
+    -moz-transition: background 0.25s linear;
+    -ms-transition: background 0.25s linear;
+    -o-transition: background 0.25s linear;
+    transition: background 0.25s linear;
+  }
+}

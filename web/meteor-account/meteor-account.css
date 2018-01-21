@@ -1,0 +1,12 @@
+/* CSS declarations go here */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.5em 2em;
+}
+.formWrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2em 4em;
+}

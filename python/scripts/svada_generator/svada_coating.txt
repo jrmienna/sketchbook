@@ -1,0 +1,13 @@
+aerogel
+tape
+film
+paper
+ceramic
+plastic
+plating
+paint
+fabric
+glitter
+gold
+plate
+foam

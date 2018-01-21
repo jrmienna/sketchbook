@@ -1,0 +1,39 @@
+<template name="gantt">
+  <div class="table-responsive">
+    <table class="table table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>Activity</th>
+          <th>Status</th>
+          <th>Day 1</th>
+          <th>Day 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="activity-row task-row">
+          <td>task1</td>
+          <td>working</td>
+          <td class="task-cell" colspan="2">{{ >task }}</td>
+        </tr>
+        <tr class="activity-row subtask-row">
+          <td>subtask1</td>
+          <td>done</td>
+          <td class="subtask-cell">{{ >subtask }}</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</template>
+
+<template name="task">
+  <div class="panel panel-info task">
+    task
+  </div>
+</template>
+
+<template name="subtask">
+  <div class="panel panel-danger subtask">
+    subtask
+  </div>
+</template>

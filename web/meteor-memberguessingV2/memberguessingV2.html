@@ -1,0 +1,33 @@
+<head>
+    <title>memberguessingV2</title>
+</head>
+
+<body>
+    <h1>Start NTNU memberguessing!</h1>
+    {{> header}}
+    <div class="container app-width">
+        <div id="main">
+            {{ renderPage }}
+        </div>
+    </div>
+</body>
+
+<template name="header">
+    <nav class="navbar navbar-fixed-top app-width">
+        <div class="navbar-inner">
+            <a href="/" class="brand">Facebook</a>
+            <ul class="nav pull-right">
+                <li>
+                    {{> loginButtons}}
+                </li>
+            </ul>
+        </div>
+    </nav>
+</template>
+
+<template name="home">
+    <button class="btn" id="btn-user-data" type="submit">Get user data</button>
+    <div class="well">
+        <pre id="result"></pre>
+    </div>
+</template>

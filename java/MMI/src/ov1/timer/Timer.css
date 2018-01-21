@@ -1,0 +1,93 @@
+.root {
+    -fx-background-color: #3D3C3C;
+}
+
+.center-wrapper {
+    -fx-padding: 40 0 40 0;
+}
+
+.numb-container {
+    -fx-background-color: #303030;
+}
+
+.numb-txt {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+    -fx-opacity: 0.2;
+    -fx-text-alignment: center;
+}
+
+.numbs {
+    -fx-text-fill: white;
+    -fx-font-size: 60;
+}
+
+.btn, .btn-empty, .btn-cancel, .btn-set {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.btn, .btn-empty {
+    -fx-font-size: 26;
+    -fx-border-radius: 0;
+    -fx-border-width: 0;
+    -fx-margin: 0;
+    -fx-arc-width: 0;
+    -fx-arc-height: 0;
+
+    -fx-min-width: 110;
+    -fx-max-width: 110;
+
+    -fx-padding: 5 40 15 40;
+    -fx-background-radius: 0;
+}
+
+.btn-cancel, .btn-set {
+    -fx-padding: 8;
+    -fx-margin: 5;
+
+    -fx-arc-width: 8;
+    -fx-arc-height: 8;
+    -fx-background-radius: 5;
+
+    -fx-font-size: 22;
+
+    -fx-min-width: 140;
+    -fx-max-width: 140;
+
+    /*-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 0, 0.0 , 0 , 1);*/
+}
+
+.btn-cancel Text, .btn-set Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 1 , 1 , -1);
+}
+
+
+.btn {
+   -fx-background-color:
+          linear-gradient(#80878E, #404747),
+          linear-gradient(#6E7583, #525662);
+   -fx-background-insets: 0.5 0.5 0 0.5, 2 0.5 0.5 0.5;
+}
+.btn Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 0, 0.5 , 0 , -1);
+}
+.btn-empty {
+    -fx-background-color:
+        #000,
+        linear-gradient(#DEDFE2, #B0B4BE);
+    -fx-background-insets: 0.5 0.5 0 0.5, 0.5 0.5 0.5 0.5;
+}
+.btn-cancel {
+    -fx-background-color:
+        #000,
+        linear-gradient(#787878, #3B3B3B);
+
+}
+
+.btn-set {
+    -fx-background-color:
+        #000,
+        linear-gradient(#7D93B0, #425676);
+}

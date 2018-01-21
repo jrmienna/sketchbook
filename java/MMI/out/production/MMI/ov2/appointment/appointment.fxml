@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+
+<BorderPane styleClass="root" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ov2.appointment.Controller">
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+
+   <left>
+      <GridPane hgap="20.0" vgap="20.0" BorderPane.alignment="CENTER">
+         <children>
+             <TextField fx:id="purposeText" promptText="Appointment name" text="New Appointment" GridPane.columnIndex="1" />
+
+             <ComboBox fx:id="roomChoice" prefWidth="150.0" promptText="Choose room" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                 <items>
+                     <FXCollections fx:factory="observableArrayList">
+
+                     </FXCollections>
+                 </items>
+             </ComboBox>
+
+             <Label GridPane.rowIndex="3" />
+             <Label layoutX="10.0" layoutY="130.0" text="Date" GridPane.rowIndex="2" />
+             <DatePicker fx:id="dateChoice" editable="false" promptText="yyyy-MM-dd" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+             <Label layoutX="10.0" layoutY="211.0" text="Starts" GridPane.rowIndex="3" />
+             <HBox layoutX="85.0" layoutY="138.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                 <children>
+                     <TextField fx:id="startHour" prefWidth="16.0" styleClass="timefield" text="00" />
+                     <Label alignment="CENTER" prefHeight="23.0" prefWidth="5.0" text=":" />
+                     <TextField fx:id="startMinute" prefWidth="16.0" styleClass="timefield" text="00" />
+                 </children>
+             </HBox>
+
+             <Label layoutX="10.0" layoutY="170.0" text="Ends" GridPane.rowIndex="4" />
+             <HBox GridPane.columnIndex="1" GridPane.rowIndex="4">
+                 <children>
+                     <TextField fx:id="endHour" alignment="CENTER" prefWidth="16.0" styleClass="timefield" text="00" />
+                     <Label alignment="CENTER" prefHeight="23.0" prefWidth="5.0" text=":" />
+                     <TextField fx:id="endMinute" prefWidth="16.0" styleClass="timefield" text="00" />
+                 </children>
+             </HBox>
+
+             <ComboBox fx:id="repeatChoice" promptText="Never repeat" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                 <items>
+                     <FXCollections fx:factory="observableArrayList">
+
+                     </FXCollections>
+                 </items>
+             </ComboBox>
+             <Button mnemonicParsing="false" onAction="#createAppointment" prefHeight="35.0" prefWidth="100.0" styleClass="btn-green" text="Create" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+
+         </children>
+
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+
+      </GridPane>
+   </left>
+
+   <center>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <ListView fx:id="appointmentList" prefHeight="400.0" prefWidth="500.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                    </FXCollections>
+                </items>
+            </ListView>
+         </children>
+      </AnchorPane>
+   </center>
+
+</BorderPane>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Opengl" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="C:/Users/mienna/Dropbox/OpenGL/LAB2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="C:/Users/mienna/Dropbox/OpenGL/LAB2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="C:/Users/mienna/Dropbox/OpenGL/LAB2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Hello_world_GL">
+         <Option output="C:/Users/mienna/Dropbox/OpenGL/LAB2/bin/Hello_world_GL.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/mienna/Dropbox/OpenGL/LAB2/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/mienna/Dropbox/OpenGL/LAB2/freeglut-mingw/include" />
+            <Add directory="C:/Users/mienna/Dropbox/OpenGL/LAB2/glew-mingw/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 Hello_world_GL" />
+            <CompileFile command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Hello_world_GL/fast">
+         <Option output="C:/Users/mienna/Dropbox/OpenGL/LAB2/bin/Hello_world_GL.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/mienna/Dropbox/OpenGL/LAB2/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/mienna/Dropbox/OpenGL/LAB2/freeglut-mingw/include" />
+            <Add directory="C:/Users/mienna/Dropbox/OpenGL/LAB2/glew-mingw/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 Hello_world_GL/fast" />
+            <CompileFile command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/mienna/Dropbox/OpenGL/LAB2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="C:/Users/mienna/Dropbox/OpenGL/LAB2/main.cpp">
+         <Option target="Hello_world_GL"/>
+      </Unit>
+      <Unit filename="C:/Users/mienna/Dropbox/OpenGL/LAB2/shader.cpp">
+         <Option target="Hello_world_GL"/>
+      </Unit>
+      <Unit filename="C:/Users/mienna/Dropbox/OpenGL/LAB2/shader.hpp">
+         <Option target="Hello_world_GL"/>
+      </Unit>
+      <Unit filename="C:/Users/mienna/Dropbox/OpenGL/LAB2/visuals.cpp">
+         <Option target="Hello_world_GL"/>
+      </Unit>
+      <Unit filename="C:/Users/mienna/Dropbox/OpenGL/LAB2/visuals.h">
+         <Option target="Hello_world_GL"/>
+      </Unit>
+      <Unit filename="C:/Users/mienna/Dropbox/OpenGL/LAB2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

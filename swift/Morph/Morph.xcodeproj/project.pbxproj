@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BE7DF351CB119AD00DF9BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF341CB119AD00DF9BAF /* AppDelegate.swift */; };
+		4BE7DF371CB119AD00DF9BAF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7DF361CB119AD00DF9BAF /* GameScene.sks */; };
+		4BE7DF391CB119AD00DF9BAF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF381CB119AD00DF9BAF /* GameScene.swift */; };
+		4BE7DF3B1CB119AD00DF9BAF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF3A1CB119AD00DF9BAF /* GameViewController.swift */; };
+		4BE7DF3E1CB119AD00DF9BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7DF3C1CB119AD00DF9BAF /* Main.storyboard */; };
+		4BE7DF401CB119AD00DF9BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7DF3F1CB119AD00DF9BAF /* Assets.xcassets */; };
+		4BE7DF431CB119AD00DF9BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7DF411CB119AD00DF9BAF /* LaunchScreen.storyboard */; };
+		4BE7DF4E1CB119AD00DF9BAF /* MorphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF4D1CB119AD00DF9BAF /* MorphTests.swift */; };
+		4BE7DF591CB119AD00DF9BAF /* MorphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF581CB119AD00DF9BAF /* MorphUITests.swift */; };
+		4BE7DF691CB11B1A00DF9BAF /* PhysicsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF681CB11B1A00DF9BAF /* PhysicsComponent.swift */; };
+		4BE7DF6B1CB11C1400DF9BAF /* InteractionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF6A1CB11C1400DF9BAF /* InteractionComponent.swift */; };
+		4BE7DF6D1CB11DCB00DF9BAF /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF6C1CB11DCB00DF9BAF /* EntityManager.swift */; };
+		4BE7DF6F1CB120EF00DF9BAF /* Morph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF6E1CB120EF00DF9BAF /* Morph.swift */; };
+		4BE7DF711CB120FD00DF9BAF /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF701CB120FD00DF9BAF /* Trigger.swift */; };
+		4BE7DF731CB1210700DF9BAF /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF721CB1210700DF9BAF /* Platform.swift */; };
+		4BE7DF751CB1211000DF9BAF /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF741CB1211000DF9BAF /* Goal.swift */; };
+		4BE7DF771CB1211900DF9BAF /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF761CB1211900DF9BAF /* Obstacle.swift */; };
+		4BE7DF791CB1212300DF9BAF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF781CB1212300DF9BAF /* Player.swift */; };
+		4BE7DF7B1CB121F100DF9BAF /* VisualComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF7A1CB121F100DF9BAF /* VisualComponent.swift */; };
+		4BE7DF7D1CB1230C00DF9BAF /* MovementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF7C1CB1230C00DF9BAF /* MovementComponent.swift */; };
+		4BE7DF821CB127D700DF9BAF /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF811CB127D700DF9BAF /* StateManager.swift */; };
+		4BE7DF841CB127EC00DF9BAF /* RuleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF831CB127EC00DF9BAF /* RuleSystem.swift */; };
+		4BE7DF881CB128CA00DF9BAF /* TimeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF871CB128CA00DF9BAF /* TimeComponent.swift */; };
+		4BE7DF8A1CB128D800DF9BAF /* TriggerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF891CB128D800DF9BAF /* TriggerComponent.swift */; };
+		4BE7DF8E1CB1322100DF9BAF /* EntityNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF8D1CB1322100DF9BAF /* EntityNode.swift */; };
+		4BE7DF901CB1437700DF9BAF /* MorphType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF8F1CB1437700DF9BAF /* MorphType.swift */; };
+		4BE7DF971CB15E7C00DF9BAF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF961CB15E7C00DF9BAF /* Game.swift */; };
+		4BE7DF991CB15E8B00DF9BAF /* InteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF981CB15E8B00DF9BAF /* InteractionManager.swift */; };
+		4BE7DF9F1CB17EC200DF9BAF /* ColliderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DF9E1CB17EC200DF9BAF /* ColliderType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BE7DF4A1CB119AD00DF9BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BE7DF291CB119AD00DF9BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE7DF301CB119AD00DF9BAF;
+			remoteInfo = Morph;
+		};
+		4BE7DF551CB119AD00DF9BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BE7DF291CB119AD00DF9BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE7DF301CB119AD00DF9BAF;
+			remoteInfo = Morph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BE7DF311CB119AD00DF9BAF /* Morph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE7DF341CB119AD00DF9BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BE7DF361CB119AD00DF9BAF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4BE7DF381CB119AD00DF9BAF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4BE7DF3A1CB119AD00DF9BAF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4BE7DF3D1CB119AD00DF9BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BE7DF3F1CB119AD00DF9BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BE7DF421CB119AD00DF9BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BE7DF441CB119AD00DF9BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE7DF491CB119AD00DF9BAF /* MorphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE7DF4D1CB119AD00DF9BAF /* MorphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphTests.swift; sourceTree = "<group>"; };
+		4BE7DF4F1CB119AD00DF9BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE7DF541CB119AD00DF9BAF /* MorphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE7DF581CB119AD00DF9BAF /* MorphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphUITests.swift; sourceTree = "<group>"; };
+		4BE7DF5A1CB119AD00DF9BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE7DF681CB11B1A00DF9BAF /* PhysicsComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsComponent.swift; sourceTree = "<group>"; };
+		4BE7DF6A1CB11C1400DF9BAF /* InteractionComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractionComponent.swift; sourceTree = "<group>"; };
+		4BE7DF6C1CB11DCB00DF9BAF /* EntityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityManager.swift; sourceTree = "<group>"; };
+		4BE7DF6E1CB120EF00DF9BAF /* Morph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Morph.swift; sourceTree = "<group>"; };
+		4BE7DF701CB120FD00DF9BAF /* Trigger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
+		4BE7DF721CB1210700DF9BAF /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		4BE7DF741CB1211000DF9BAF /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		4BE7DF761CB1211900DF9BAF /* Obstacle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		4BE7DF781CB1212300DF9BAF /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4BE7DF7A1CB121F100DF9BAF /* VisualComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualComponent.swift; sourceTree = "<group>"; };
+		4BE7DF7C1CB1230C00DF9BAF /* MovementComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovementComponent.swift; sourceTree = "<group>"; };
+		4BE7DF811CB127D700DF9BAF /* StateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
+		4BE7DF831CB127EC00DF9BAF /* RuleSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleSystem.swift; sourceTree = "<group>"; };
+		4BE7DF871CB128CA00DF9BAF /* TimeComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeComponent.swift; sourceTree = "<group>"; };
+		4BE7DF891CB128D800DF9BAF /* TriggerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerComponent.swift; sourceTree = "<group>"; };
+		4BE7DF8D1CB1322100DF9BAF /* EntityNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityNode.swift; sourceTree = "<group>"; };
+		4BE7DF8F1CB1437700DF9BAF /* MorphType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphType.swift; sourceTree = "<group>"; };
+		4BE7DF961CB15E7C00DF9BAF /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4BE7DF981CB15E8B00DF9BAF /* InteractionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractionManager.swift; sourceTree = "<group>"; };
+		4BE7DF9E1CB17EC200DF9BAF /* ColliderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColliderType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BE7DF2E1CB119AD00DF9BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE7DF461CB119AD00DF9BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE7DF511CB119AD00DF9BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BE7DF281CB119AD00DF9BAF = {
+			isa = PBXGroup;
+			children = (
+				4BE7DF331CB119AD00DF9BAF /* Morph */,
+				4BE7DF4C1CB119AD00DF9BAF /* MorphTests */,
+				4BE7DF571CB119AD00DF9BAF /* MorphUITests */,
+				4BE7DF321CB119AD00DF9BAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BE7DF321CB119AD00DF9BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7DF311CB119AD00DF9BAF /* Morph.app */,
+				4BE7DF491CB119AD00DF9BAF /* MorphTests.xctest */,
+				4BE7DF541CB119AD00DF9BAF /* MorphUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BE7DF331CB119AD00DF9BAF /* Morph */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7DF7E1CB1277700DF9BAF /* Controller */,
+				4BE7DF671CB11A4400DF9BAF /* Components */,
+				4BE7DF661CB11A2C00DF9BAF /* Entities */,
+				4BE7DF9D1CB17B9600DF9BAF /* GameConfig */,
+				4BE7DF341CB119AD00DF9BAF /* AppDelegate.swift */,
+				4BE7DF961CB15E7C00DF9BAF /* Game.swift */,
+				4BE7DF361CB119AD00DF9BAF /* GameScene.sks */,
+				4BE7DF381CB119AD00DF9BAF /* GameScene.swift */,
+				4BE7DF3A1CB119AD00DF9BAF /* GameViewController.swift */,
+				4BE7DF3C1CB119AD00DF9BAF /* Main.storyboard */,
+				4BE7DF3F1CB119AD00DF9BAF /* Assets.xcassets */,
+				4BE7DF411CB119AD00DF9BAF /* LaunchScreen.storyboard */,
+				4BE7DF441CB119AD00DF9BAF /* Info.plist */,
+			);
+			path = Morph;
+			sourceTree = "<group>";
+		};
+		4BE7DF4C1CB119AD00DF9BAF /* MorphTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7DF4D1CB119AD00DF9BAF /* MorphTests.swift */,
+				4BE7DF4F1CB119AD00DF9BAF /* Info.plist */,
+			);
+			path = MorphTests;
+			sourceTree = "<group>";
+		};
+		4BE7DF571CB119AD00DF9BAF /* MorphUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7DF581CB119AD00DF9BAF /* MorphUITests.swift */,
+				4BE7DF5A1CB119AD00DF9BAF /* Info.plist */,
+			);
+			path = MorphUITests;
+			sourceTree = "<group>";
+		};
+		4BE7DF661CB11A2C00DF9BAF /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7DF8D1CB1322100DF9BAF /* EntityNode.swift */,
+				4BE7DF6E1CB120EF00DF9BAF /* Morph.swift */,
+				4BE7DF701CB120FD00DF9BAF /* Trigger.swift */,
+				4BE7DF721CB1210700DF9BAF /* Platform.swift */,
+				4BE7DF741CB1211000DF9BAF /* Goal.swift */,
+				4BE7DF761CB1211900DF9BAF /* Obstacle.swift */,
+				4BE7DF781CB1212300DF9BAF /* Player.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		4BE7DF671CB11A4400DF9BAF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7DF681CB11B1A00DF9BAF /* PhysicsComponent.swift */,
+				4BE7DF6A1CB11C1400DF9BAF /* InteractionComponent.swift */,
+				4BE7DF7A1CB121F100DF9BAF /* VisualComponent.swift */,
+				4BE7DF7C1CB1230C00DF9BAF /* MovementComponent.swift */,
+				4BE7DF871CB128CA00DF9BAF /* TimeComponent.swift */,
+				4BE7DF891CB128D800DF9BAF /* TriggerComponent.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		4BE7DF7E1CB1277700DF9BAF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7DF831CB127EC00DF9BAF /* RuleSystem.swift */,
+				4BE7DF981CB15E8B00DF9BAF /* InteractionManager.swift */,
+				4BE7DF6C1CB11DCB00DF9BAF /* EntityManager.swift */,
+				4BE7DF811CB127D700DF9BAF /* StateManager.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4BE7DF9D1CB17B9600DF9BAF /* GameConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7DF8F1CB1437700DF9BAF /* MorphType.swift */,
+				4BE7DF9E1CB17EC200DF9BAF /* ColliderType.swift */,
+			);
+			name = GameConfig;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BE7DF301CB119AD00DF9BAF /* Morph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE7DF5D1CB119AD00DF9BAF /* Build configuration list for PBXNativeTarget "Morph" */;
+			buildPhases = (
+				4BE7DF2D1CB119AD00DF9BAF /* Sources */,
+				4BE7DF2E1CB119AD00DF9BAF /* Frameworks */,
+				4BE7DF2F1CB119AD00DF9BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Morph;
+			productName = Morph;
+			productReference = 4BE7DF311CB119AD00DF9BAF /* Morph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BE7DF481CB119AD00DF9BAF /* MorphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE7DF601CB119AD00DF9BAF /* Build configuration list for PBXNativeTarget "MorphTests" */;
+			buildPhases = (
+				4BE7DF451CB119AD00DF9BAF /* Sources */,
+				4BE7DF461CB119AD00DF9BAF /* Frameworks */,
+				4BE7DF471CB119AD00DF9BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE7DF4B1CB119AD00DF9BAF /* PBXTargetDependency */,
+			);
+			name = MorphTests;
+			productName = MorphTests;
+			productReference = 4BE7DF491CB119AD00DF9BAF /* MorphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BE7DF531CB119AD00DF9BAF /* MorphUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE7DF631CB119AD00DF9BAF /* Build configuration list for PBXNativeTarget "MorphUITests" */;
+			buildPhases = (
+				4BE7DF501CB119AD00DF9BAF /* Sources */,
+				4BE7DF511CB119AD00DF9BAF /* Frameworks */,
+				4BE7DF521CB119AD00DF9BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE7DF561CB119AD00DF9BAF /* PBXTargetDependency */,
+			);
+			name = MorphUITests;
+			productName = MorphUITests;
+			productReference = 4BE7DF541CB119AD00DF9BAF /* MorphUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BE7DF291CB119AD00DF9BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "morph project";
+				TargetAttributes = {
+					4BE7DF301CB119AD00DF9BAF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DVW34XW46P;
+					};
+					4BE7DF481CB119AD00DF9BAF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DVW34XW46P;
+						TestTargetID = 4BE7DF301CB119AD00DF9BAF;
+					};
+					4BE7DF531CB119AD00DF9BAF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DVW34XW46P;
+						TestTargetID = 4BE7DF301CB119AD00DF9BAF;
+					};
+				};
+			};
+			buildConfigurationList = 4BE7DF2C1CB119AD00DF9BAF /* Build configuration list for PBXProject "Morph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BE7DF281CB119AD00DF9BAF;
+			productRefGroup = 4BE7DF321CB119AD00DF9BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BE7DF301CB119AD00DF9BAF /* Morph */,
+				4BE7DF481CB119AD00DF9BAF /* MorphTests */,
+				4BE7DF531CB119AD00DF9BAF /* MorphUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BE7DF2F1CB119AD00DF9BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE7DF371CB119AD00DF9BAF /* GameScene.sks in Resources */,
+				4BE7DF431CB119AD00DF9BAF /* LaunchScreen.storyboard in Resources */,
+				4BE7DF401CB119AD00DF9BAF /* Assets.xcassets in Resources */,
+				4BE7DF3E1CB119AD00DF9BAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE7DF471CB119AD00DF9BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE7DF521CB119AD00DF9BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BE7DF2D1CB119AD00DF9BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE7DF731CB1210700DF9BAF /* Platform.swift in Sources */,
+				4BE7DF901CB1437700DF9BAF /* MorphType.swift in Sources */,
+				4BE7DF771CB1211900DF9BAF /* Obstacle.swift in Sources */,
+				4BE7DF391CB119AD00DF9BAF /* GameScene.swift in Sources */,
+				4BE7DF8E1CB1322100DF9BAF /* EntityNode.swift in Sources */,
+				4BE7DF6B1CB11C1400DF9BAF /* InteractionComponent.swift in Sources */,
+				4BE7DF841CB127EC00DF9BAF /* RuleSystem.swift in Sources */,
+				4BE7DF9F1CB17EC200DF9BAF /* ColliderType.swift in Sources */,
+				4BE7DF791CB1212300DF9BAF /* Player.swift in Sources */,
+				4BE7DF8A1CB128D800DF9BAF /* TriggerComponent.swift in Sources */,
+				4BE7DF991CB15E8B00DF9BAF /* InteractionManager.swift in Sources */,
+				4BE7DF881CB128CA00DF9BAF /* TimeComponent.swift in Sources */,
+				4BE7DF3B1CB119AD00DF9BAF /* GameViewController.swift in Sources */,
+				4BE7DF6D1CB11DCB00DF9BAF /* EntityManager.swift in Sources */,
+				4BE7DF711CB120FD00DF9BAF /* Trigger.swift in Sources */,
+				4BE7DF821CB127D700DF9BAF /* StateManager.swift in Sources */,
+				4BE7DF7D1CB1230C00DF9BAF /* MovementComponent.swift in Sources */,
+				4BE7DF351CB119AD00DF9BAF /* AppDelegate.swift in Sources */,
+				4BE7DF971CB15E7C00DF9BAF /* Game.swift in Sources */,
+				4BE7DF6F1CB120EF00DF9BAF /* Morph.swift in Sources */,
+				4BE7DF7B1CB121F100DF9BAF /* VisualComponent.swift in Sources */,
+				4BE7DF751CB1211000DF9BAF /* Goal.swift in Sources */,
+				4BE7DF691CB11B1A00DF9BAF /* PhysicsComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE7DF451CB119AD00DF9BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE7DF4E1CB119AD00DF9BAF /* MorphTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE7DF501CB119AD00DF9BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE7DF591CB119AD00DF9BAF /* MorphUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BE7DF4B1CB119AD00DF9BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BE7DF301CB119AD00DF9BAF /* Morph */;
+			targetProxy = 4BE7DF4A1CB119AD00DF9BAF /* PBXContainerItemProxy */;
+		};
+		4BE7DF561CB119AD00DF9BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BE7DF301CB119AD00DF9BAF /* Morph */;
+			targetProxy = 4BE7DF551CB119AD00DF9BAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BE7DF3C1CB119AD00DF9BAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BE7DF3D1CB119AD00DF9BAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BE7DF411CB119AD00DF9BAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BE7DF421CB119AD00DF9BAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BE7DF5B1CB119AD00DF9BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BE7DF5C1CB119AD00DF9BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE7DF5E1CB119AD00DF9BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Morph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morphproject.Morph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BE7DF5F1CB119AD00DF9BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Morph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morphproject.Morph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BE7DF611CB119AD00DF9BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MorphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morphproject.MorphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morph.app/Morph";
+			};
+			name = Debug;
+		};
+		4BE7DF621CB119AD00DF9BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MorphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morphproject.MorphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morph.app/Morph";
+			};
+			name = Release;
+		};
+		4BE7DF641CB119AD00DF9BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MorphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morphproject.MorphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Morph;
+			};
+			name = Debug;
+		};
+		4BE7DF651CB119AD00DF9BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MorphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.morphproject.MorphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Morph;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BE7DF2C1CB119AD00DF9BAF /* Build configuration list for PBXProject "Morph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE7DF5B1CB119AD00DF9BAF /* Debug */,
+				4BE7DF5C1CB119AD00DF9BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE7DF5D1CB119AD00DF9BAF /* Build configuration list for PBXNativeTarget "Morph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE7DF5E1CB119AD00DF9BAF /* Debug */,
+				4BE7DF5F1CB119AD00DF9BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE7DF601CB119AD00DF9BAF /* Build configuration list for PBXNativeTarget "MorphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE7DF611CB119AD00DF9BAF /* Debug */,
+				4BE7DF621CB119AD00DF9BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE7DF631CB119AD00DF9BAF /* Build configuration list for PBXNativeTarget "MorphUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE7DF641CB119AD00DF9BAF /* Debug */,
+				4BE7DF651CB119AD00DF9BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BE7DF291CB119AD00DF9BAF /* Project object */;
+}

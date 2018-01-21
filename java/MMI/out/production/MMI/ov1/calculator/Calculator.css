@@ -1,0 +1,53 @@
+.root {
+    -fx-fill: black;
+    -fx-background-color: black;
+}
+
+.white-gradient {
+    -fx-background-color: linear-gradient(#DCDCDE, #C1C3C6);
+}
+
+.orange-gradient {
+    -fx-background-color: linear-gradient(#F09122, #EA761E);
+}
+
+.label, .button {
+    -fx-font-weight: lighter;
+}
+
+.label {
+    -fx-font-size: 68;
+    -fx-font-family: "Helvetica";
+}
+.button {
+    -fx-font-family: "Helvetica CE 35 Thin";
+    -fx-min-width: 80;
+    -fx-min-height: 80;
+    -fx-fill: transparent;
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-width: 0.5;
+    -fx-border-color: #616263;
+    -fx-font-size: 28;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-border-radius: 0;
+}
+
+.button-orange {
+    -fx-text-fill: white;
+}
+
+.button-upper {
+    -fx-font-size: 20;
+}
+
+.button-grey:hover {-fx-background-color: #eee;}
+.button-orange:hover {-fx-background-color: #F59E38;}
+
+/*
+.button-grey:focused {-fx-border-color: white;}
+.button-orange:focused {-fx-border-color: white;}
+*/
+
+.button-grey:pressed {-fx-background-color: #888;}
+.button-orange:pressed {-fx-background-color: #D16513;}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+{% load static %}
+
+<html lang="en" >
+
+<head>
+    <!--General Settings-->
+    <title>
+    {% block title %}Start nach{% endblock %}
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Nach Committee of Start NTNU">
+    <meta name="keywords" content="nachspiel committee start ntnu">
+    <meta name="author" content="John Rikard Mienna">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="{% static 'bootstrap-3.2.0/dist/css/bootstrap.min.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+   
+    <body>
+        {% block base_body %}
+        {% endblock %}
+    </body>
+
+
+    <!--JAVASCRIPT-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="{% static 'bootstrap-3.2.0/dist/js/bootstrap.min.js' %}"></script>
+
+</head>

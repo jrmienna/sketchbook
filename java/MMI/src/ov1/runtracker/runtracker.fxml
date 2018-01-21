@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="4.0" styleClass="root" vgap="4.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ov1.wordfeud.Controller">
+
+   
+    <stylesheets>
+        <URL value="@Runtracker.css" />
+    </stylesheets>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="80.0" prefWidth="600.0" styleClass="wrapper" GridPane.columnSpan="2" GridPane.rowIndex="1">
+         <children>
+            <Text layoutX="10.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DURATION">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <HBox alignment="BOTTOM_RIGHT" layoutX="300.0" prefHeight="80.0" prefWidth="300.0">
+               <children>
+                  <Label alignment="BOTTOM_CENTER" style="-fx-font-weight: bold; -fx-font-size: 60;" text="0">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="121.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text=":">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Text>
+                  <Label alignment="BOTTOM_CENTER" layoutX="10.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text="5">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" layoutX="47.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text="7">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Label>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text=":">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Text>
+                  <Label alignment="BOTTOM_CENTER" layoutX="84.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text="2">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" layoutX="121.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text="4">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="80.0" prefWidth="600.0" styleClass="wrapper" GridPane.columnSpan="2" GridPane.rowIndex="2">
+         <children>
+            <Text layoutX="10.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DISTANCE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="km">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <HBox alignment="BOTTOM_RIGHT" layoutX="300.0" prefHeight="80.0" prefWidth="300.0">
+               <children>
+                  <Label alignment="BOTTOM_CENTER" layoutX="10.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text="1">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" layoutX="47.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text="2">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Label>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text=".">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Text>
+                  <Label alignment="BOTTOM_CENTER" layoutX="84.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text="3">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" layoutX="121.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 60;" text="0">
+                     <font>
+                        <Font size="64.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="80.0" prefWidth="300.0" styleClass="wrapper" GridPane.rowIndex="3">
+         <children>
+            <Text layoutX="10.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HEART RATE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="bpm">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <HBox alignment="BOTTOM_RIGHT" layoutX="150.0" prefHeight="80.0" prefWidth="150.0">
+               <children>
+                  <Label alignment="BOTTOM_CENTER" layoutX="47.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 48;" text="2">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_RIGHT" layoutX="84.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 48;" text="3">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" layoutX="121.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 48;" text="0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="80.0" prefWidth="300.0" styleClass="wrapper" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <Text layoutX="10.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="km/h">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AVG. SPEED">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <HBox alignment="BOTTOM_RIGHT" layoutX="150.0" layoutY="1.0" prefHeight="80.0" prefWidth="150.0">
+               <children>
+                  <Label alignment="BOTTOM_CENTER" layoutX="47.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 48;" text="4">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 48;" text=":">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Text>
+                  <Label alignment="BOTTOM_CENTER" layoutX="84.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 48;" text="4">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" layoutX="121.0" layoutY="10.0" style="-fx-font-weight: bold; -fx-font-size: 48;" text="0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="80.0" prefWidth="600.0" GridPane.columnSpan="2">
+         <children>
+            <Text layoutX="468.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RUNNING">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@runningman.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+   </padding>
+
+</GridPane>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.collections.*?>
+<?import java.lang.String?>
+
+<VBox spacing="40.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NimFX">
+   <children>
+       <HBox spacing="5">
+          <children>
+              <Text text="New Nim game with pile sizes " />
+              <TextField fx:id="pileSizeField" promptText="pileSize" />
+              <Button onAction="#newGame" text="Start" />
+          </children>
+       </HBox>
+       <HBox alignment="CENTER" spacing="30">
+          <children>
+              <Text fx:id="gameState" text="Game inactive" />
+              <VBox alignment="CENTER">
+                 <children>
+                     <Text text="Pile 1:" />
+                     <Text fx:id="pile1" text="0" />
+                 </children>
+              </VBox>
+              <VBox alignment="CENTER">
+                 <children>
+                     <Text text="Pile 2:" />
+                     <Text fx:id="pile2" text="0" />
+                 </children>
+              </VBox>
+              <VBox alignment="CENTER">
+                 <children>
+                     <Text text="Pile 3:" />
+                     <Text fx:id="pile3" text="0" />
+                 </children>
+              </VBox>
+          </children>
+       </HBox>
+       <VBox spacing="10">
+          <children>
+              <HBox>
+                 <children>
+                     <Text text="Remove " />
+                     <TextField fx:id="numberField" promptText="number" />
+                     <Text text=" from pile " />
+                     <ChoiceBox fx:id="targetPileChoice">
+                         <value>
+                             <String fx:value="1" />
+                         </value>
+                         <items>
+                             <FXCollections fx:factory="observableArrayList">
+                                 <String fx:value="1" />
+                                 <String fx:value="2" />
+                                 <String fx:value="3" />
+                             </FXCollections>
+                         </items>
+                     </ChoiceBox>
+                 </children>
+              </HBox>
+              <HBox spacing="10">
+                 <children>
+                     <Button onAction="#removePieces" text="removePieces(number, targetPile)" />
+                     <Text fx:id="feedbackText" text="" />
+                 </children>
+              </HBox>
+          </children>
+       </VBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+
+</VBox>

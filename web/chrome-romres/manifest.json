@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "romres",
+    "version": "1.0",
+    "description": "Making it easier to book rooms at NTNU",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    
+    "content_scripts": [
+        {
+            "matches": ["https://romres.ntnu.no/*"],
+            "css": ["bootstrap.min.css", "bootstrap-theme.min.css", "site.css"],
+            "js": ["jquery.min.js", "main.js"]
+        }
+    ]
+}

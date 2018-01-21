@@ -1,0 +1,16 @@
+@import 'variables';
+.markdown.sample.tab {
+    margin: 30px 10px 60px 25px;
+    pre {
+        line-height: 1.25;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        word-break: break-word;
+        -webkit-font-variant-ligatures: normal;
+        font-variant-ligatures: normal;
+        font-size: 0.9em;
+        .code, .img, .imgref, .cl-toc {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+    }
+}

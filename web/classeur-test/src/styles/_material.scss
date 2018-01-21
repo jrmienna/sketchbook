@@ -1,0 +1,229 @@
+button,
+select,
+html,
+textarea,
+input {
+    font-family: $font-family;
+    font-weight: 400;
+}
+
+input {
+    border-width: 0;
+}
+
+.md-char-counter {
+    display: none;
+}
+
+.md-button {
+    padding: 8px 10px;
+    margin: 0;
+    line-height: inherit;
+    font-size: inherit;
+    min-width: 0;
+    min-height: 0;
+    &, &.md-fab {
+        line-height: 1;
+    }
+}
+
+.md-button {
+    font-weight: normal;
+    height: auto;
+}
+
+md-menu-item > .md-button {
+    line-height: 25px;
+    md-icon {
+        font-size: 25px;
+    }
+}
+
+md-slider.md-default-theme .md-track {
+    background-color: #aaa;
+}
+
+.md-track-ticks {
+    display: none;
+}
+
+md-switch {
+    .md-container {
+        width: 60px;
+    }
+    .md-thumb {
+        left: 1px;
+        top: 1px;
+        height: 18px;
+        width: 18px;
+    }
+    &.md-default-theme .md-bar {
+        width: 54px;
+        height: 2px;
+        top: 12px;
+    }
+    .md-thumb-container {
+        top: 2px;
+        left: 0;
+        width: 36px;
+    }
+}
+
+md-radio-group {
+    border: 0;
+}
+
+md-switch .md-label {
+    border-width: 0px;
+}
+
+md-switch.md-default-theme.md-checked.md-primary .md-bar {
+    background-color: rgb(70, 173, 245);
+}
+
+md-slider.md-default-theme .md-track.md-track-fill {
+    background-color: rgb(70, 173, 245);
+}
+
+md-slider.md-default-theme .md-thumb:after {
+    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-color: rgb(33, 150, 243);
+    background-color: rgb(33, 150, 243);
+}
+
+md-slider.md-default-theme.md-min .md-thumb:after {
+    background-color: rgb(33, 150, 243);
+}
+
+md-dialog {
+    max-width: 500px;
+    &.md-default-theme {
+        border-radius: 0;
+        background-color: #F4F4F4;
+    }
+    .md-title,
+    h2 {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+}
+
+md-backdrop.md-opaque.md-default-theme, md-backdrop.md-opaque.ng-enter.md-opaque.ng-enter-active {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.75) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0, 0, 0, 0.25)), color-stop(100%, rgba(0, 0, 0, 0.75)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.75) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.75) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.75) 100%);
+    background: radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.75) 100%);
+    -webkit-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+md-backdrop.md-opaque, md-backdrop.md-opaque.ng-enter.md-opaque.ng-enter-active {
+    opacity: 1;
+}
+
+md-backdrop.ng-enter {
+    opacity: 0;
+}
+
+md-backdrop.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
+md-backdrop.ng-leave {
+    opacity: 1;
+}
+
+md-backdrop.ng-leave.ng-leave-active {
+    opacity: 0;
+}
+
+md-input-container {
+    min-width: 50px;
+}
+
+md-input-container .md-input[disabled],
+[disabled] md-input-container .md-input {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+md-input-container.md-classeur-theme .md-input[disabled],
+[disabled] md-input-container.md-classeur-theme .md-input {
+    color: #fff;
+}
+
+md-checkbox.md-default-theme .md-icon {
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+md-checkbox.md-default-theme.md-checked .md-icon {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+$tooltip-background-color: rgba(40, 40, 40, 0.9);
+md-tooltip {
+    border-radius: 6px;
+    background-color: $tooltip-background-color;
+    overflow: visible;
+    p {
+        margin: 0.5em 0;
+        font-size: 12px;
+        line-height: 1.3;
+    }
+    p:first-child {
+        font-size: 18px;
+        margin: 0.2em 0 1em;
+    }
+    &.md-default-theme .md-background {
+        background-color: rgba(40, 40, 40, 0.9);
+    }
+    .md-content {
+        height: auto;
+        max-width: 270px;
+        padding: 12px;
+        white-space: inherit;
+    }
+    .md-background {
+        display: none;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+    }
+    &.bottom::before {
+        top: -5px;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 0 5px 5px;
+        border-bottom-color: $tooltip-background-color;
+    }
+    &.left::before {
+        top: 50%;
+        right: -5px;
+        margin-top: -5px;
+        border-width: 5px 0 5px 5px;
+        border-left-color: $tooltip-background-color;
+    }
+}
+
+.md-chips .md-chip {
+    height: 25px;
+    line-height: 25px;
+}
+
+md-chips .md-chips {
+    box-shadow: none;
+}
+
+// Workaround https://github.com/angular/material/issues/4513
+body > .md-dialog-container {
+  height: 100vh !important;
+}

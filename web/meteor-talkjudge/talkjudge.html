@@ -1,0 +1,37 @@
+<head>
+  <title>talkjudge</title>
+</head>
+
+<body>
+    <title>Something</title>
+    <div class="container">
+        {{> header}}
+        {{> talksList }}
+    </div>
+</body>
+
+<template name="header">
+    <h1>Judge the talks</h1>
+    <h3>Be ruthless</h3>
+</template>
+
+<template name="talksList">
+    <ul class="talks">
+        {{ #each talks }}
+        <li>
+            <div class="panel">
+                <div class="panel-body">
+                    <b>
+                        {{ title }}
+                    </b> by {{ speaker }}
+                    ({{ votes }} votes)
+                    <br>
+                    <input type="button" class="upvote" value="Upvote"/>
+                    <input type="button" class="downvote" value="Downvote"/>
+                </div>
+            </div>
+        </li>
+        {{ /each }}
+    </ul>
+</template>
+

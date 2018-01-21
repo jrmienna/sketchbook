@@ -1,0 +1,24 @@
+.preview {
+    h1, h2, h3, h4, h5, h6 {
+        .heading-anchor {
+            position: absolute;
+            text-align: right;
+            width: 50px;
+            margin-left: -50px;
+            padding-right: 6px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #999;
+            opacity: 0;
+            -webkit-transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            cursor: pointer;
+        }
+        &:hover .heading-anchor {
+            opacity: 0.5;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}

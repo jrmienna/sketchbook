@@ -1,0 +1,13 @@
+/* CSS declarations go here */
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+.talks {
+    list-style: none;
+    margin: 20px 0;
+}
+.talks li {
+    margin: 20px 0;
+}

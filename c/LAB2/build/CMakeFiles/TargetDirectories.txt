@@ -1,0 +1,1 @@
+C:/Users/mienna/Dropbox/OpenGL/LAB2/build/CMakeFiles/Hello_world_GL.dir

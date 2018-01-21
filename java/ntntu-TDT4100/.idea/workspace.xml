@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bf1a861-d582-4ae0-8e96-ac381347cd8e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exercises15/exercise00/RectsCore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exercises15/exercise00/RectsUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/account/Account.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/account/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/digit/Digit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/lineeditor/LineEditor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/lineeditor/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/location/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/location/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/rectangle/Rectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/rectangle/RectangleProgram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/upordowncounter/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise01/upordowncounter/UpOrDownCounter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise02/calculator/CalculatorProgram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise02/calculator/Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise02/calculator/SimpleCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise02/rpn/MainRPN.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise02/rpn/RPNCalc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise02/stack/MainStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise02/stack/Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise02/stack/RandomStringGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise02/stack/Stack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/account/Account.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/account/AccountProgram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/account/Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/calculator/Calculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/calculator/CalculatorProgram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/calculator/Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/digit/Digit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/lineeditor/LineEditor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/lineeditor/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/location/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/location/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/rectangle/Rectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/rectangle/RectangleProgram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/rpn/MainRPN.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/rpn/RPNCalc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/stack/MainStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/stack/Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/stack/RandomStringGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/stack/Stack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/upordown/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/encapsulation/upordown/UpOrDownCounter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/person/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/person/PersonFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/person/PersonProgram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/register/database/PersonDatabase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/register/main/Frame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/register/main/Program.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/register/registration/PersonData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise03/register/registration/PersonValidation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/soduko/Cell.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/soduko/StringJoiner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/soduko/SudokuGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/soduko/SudokuProgram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/soduko/UniquenessChecker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/sokoban/Board.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/sokoban/Engine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/sokoban/Level.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/sokoban/Sokoban.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/sokoban/Tiles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/tictac/TicTacToe.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise04/tictac/TicTacToeProgram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise05/card/Card.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise05/card/CardDeck.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise05/card/CardHand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise05/partner/Partner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise05/person/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/card/Card.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/card/CardComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/card/CardContainer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/card/CardContainerIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/card/CardDeck.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/card/CardHand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/card/TestCompareCards.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/named/Named.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/named/NamedComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/named/Person1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/named/Person2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/stringgrid/StringGrid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/stringgrid/StringGridImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/stringgrid/StringGridIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise06/stringgrid/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/Board.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/ConsoleGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/ConsoleGameDriver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/ConsoleOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/Engine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/FileReaderWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/GameHistory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/Level.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/Sokoban.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise07/sokoban/Tiles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/asteroids/Asteroid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/asteroids/SpaceObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/asteroids/SpaceShip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/calculator/Calculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/calculator/RPNCalc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/calculator/SimpleCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/cardcontainerimpl/Card.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/cardcontainerimpl/CardComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/cardcontainerimpl/CardContainer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/cardcontainerimpl/CardContainerIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/cardcontainerimpl/CardDeck.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/cardcontainerimpl/CardHand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/cardcontainerimpl/TestCompareCards.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/savingsaccount/Account.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/savingsaccount/BSU.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/savingsaccount/ForeldreSpar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/savingsaccount/SavingsAccount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/train/CargoCar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/train/Locomotive.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/train/PassangerCar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/exercises/exercise08/train/TrainCar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/AccountTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/CalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/DigitTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/LineEditorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/LocationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/PersonTest2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/RPNCalcTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/RectangleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/StackTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/encapsulation/UpOrDownCounterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/interfaces/CardComparatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/interfaces/CardContainerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/interfaces/NamedTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/interfaces/StringGridTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/objectstructures/CardDeckTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/objectstructures/CardHandTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/objectstructures/CardTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/objectstructures/PartnerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/objectstructures/PersonTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/stateandbehavior/AccountTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/stateandbehavior/CalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/stateandbehavior/DigitTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/stateandbehavior/LineEditorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/stateandbehavior/LocationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/stateandbehavior/RPNCalcTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/stateandbehavior/RectangleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/stateandbehavior/StackTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tests/stateandbehavior/UpOrDownCounterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/exercises14/exercise08/calculator/RPNCalc.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/exercises14/exercise08/train/PassangerCar.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/account/Account.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/account/Account.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/account/Main.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/account/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/digit/Digit.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/digit/Digit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/lineeditor/LineEditor.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/lineeditor/LineEditor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/lineeditor/Main.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/lineeditor/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/location/Location.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/location/Location.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/location/Main.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/location/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/rectangle/Rectangle.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/rectangle/Rectangle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/rectangle/RectangleProgram.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/rectangle/RectangleProgram.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/upordowncounter/Main.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/upordowncounter/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise01/upordowncounter/UpOrDownCounter.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise01/upordowncounter/UpOrDownCounter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise02/calculator/CalculatorProgram.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise02/calculator/CalculatorProgram.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise02/calculator/Printer.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise02/calculator/Printer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise02/calculator/SimpleCalculator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise02/calculator/SimpleCalculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise02/rpn/MainRPN.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise02/rpn/MainRPN.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise02/rpn/RPNCalc.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise02/rpn/RPNCalc.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise02/stack/MainStack.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise02/stack/MainStack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise02/stack/Printer.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise02/stack/Printer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise02/stack/RandomStringGenerator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise02/stack/RandomStringGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise02/stack/Stack.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise02/stack/Stack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/account/Account.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/account/Account.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/account/AccountProgram.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/account/AccountProgram.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/account/Printer.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/account/Printer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/calculator/Calculator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/calculator/Calculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/calculator/CalculatorProgram.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/calculator/CalculatorProgram.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/calculator/Printer.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/calculator/Printer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/digit/Digit.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/digit/Digit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/lineeditor/LineEditor.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/lineeditor/LineEditor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/lineeditor/Main.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/lineeditor/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/location/Location.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/location/Location.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/location/Main.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/location/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/rectangle/Rectangle.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/rectangle/Rectangle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/rectangle/RectangleProgram.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/rectangle/RectangleProgram.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/rpn/MainRPN.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/rpn/MainRPN.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/rpn/RPNCalc.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/rpn/RPNCalc.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/stack/MainStack.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/stack/MainStack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/stack/Printer.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/stack/Printer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/stack/RandomStringGenerator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/stack/RandomStringGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/stack/Stack.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/stack/Stack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/upordown/Main.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/upordown/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/encapsulation/upordown/UpOrDownCounter.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/encapsulation/upordown/UpOrDownCounter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/person/Person.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/person/Person.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/person/PersonFrame.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/person/PersonFrame.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/person/PersonProgram.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/person/PersonProgram.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/register/database/PersonDatabase.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/register/database/PersonDatabase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/register/main/Frame.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/register/main/Frame.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/register/main/Program.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/register/main/Program.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/register/registration/PersonData.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/register/registration/PersonData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise03/register/registration/PersonValidation.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise03/register/registration/PersonValidation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/soduko/Cell.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/soduko/Cell.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/soduko/StringJoiner.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/soduko/StringJoiner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/soduko/SudokuGame.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/soduko/SudokuGame.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/soduko/SudokuProgram.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/soduko/SudokuProgram.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/soduko/UniquenessChecker.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/soduko/UniquenessChecker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/sokoban/Board.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/sokoban/Board.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/sokoban/Engine.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/sokoban/Engine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/sokoban/Level.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/sokoban/Level.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/sokoban/Sokoban.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/sokoban/Sokoban.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/sokoban/Tiles.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/sokoban/Tiles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/tictac/TicTacToe.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/tictac/TicTacToe.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise04/tictac/TicTacToeProgram.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise04/tictac/TicTacToeProgram.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise05/card/Card.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise05/card/Card.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise05/card/CardDeck.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise05/card/CardDeck.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise05/card/CardHand.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise05/card/CardHand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise05/partner/Partner.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise05/partner/Partner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise05/person/Person.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise05/person/Person.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/card/Card.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/card/Card.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/card/CardComparator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/card/CardComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/card/CardContainer.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/card/CardContainer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/card/CardContainerIterator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/card/CardContainerIterator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/card/CardDeck.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/card/CardDeck.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/card/CardHand.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/card/CardHand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/card/TestCompareCards.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/card/TestCompareCards.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/named/Named.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/named/Named.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/named/NamedComparator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/named/NamedComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/named/Person1.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/named/Person1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/named/Person2.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/named/Person2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/stringgrid/StringGrid.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/stringgrid/StringGrid.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/stringgrid/StringGridImpl.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/stringgrid/StringGridImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/stringgrid/StringGridIterator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/stringgrid/StringGridIterator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise06/stringgrid/Test.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise06/stringgrid/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/Board.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/Board.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/ConsoleGame.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/ConsoleGame.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/ConsoleGameDriver.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/ConsoleGameDriver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/ConsoleOutput.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/ConsoleOutput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/Engine.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/Engine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/FileReaderWriter.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/FileReaderWriter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/GameHistory.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/GameHistory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/Level.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/Level.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/Sokoban.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/Sokoban.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise07/sokoban/Tiles.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise07/sokoban/Tiles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/asteroids/Asteroid.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/asteroids/Asteroid.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/asteroids/SpaceObject.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/asteroids/SpaceObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/asteroids/SpaceShip.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/asteroids/SpaceShip.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/calculator/Calculator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/calculator/Calculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/calculator/SimpleCalculator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/calculator/SimpleCalculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/cardcontainerimpl/Card.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/cardcontainerimpl/Card.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/cardcontainerimpl/CardComparator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/cardcontainerimpl/CardComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/cardcontainerimpl/CardContainer.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/cardcontainerimpl/CardContainer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/cardcontainerimpl/CardContainerIterator.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/cardcontainerimpl/CardContainerIterator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/cardcontainerimpl/CardDeck.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/cardcontainerimpl/CardDeck.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/cardcontainerimpl/CardHand.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/cardcontainerimpl/CardHand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/cardcontainerimpl/TestCompareCards.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/cardcontainerimpl/TestCompareCards.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/savingsaccount/Account.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/savingsaccount/Account.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/savingsaccount/BSU.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/savingsaccount/BSU.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/savingsaccount/ForeldreSpar.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/savingsaccount/ForeldreSpar.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/savingsaccount/SavingsAccount.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/savingsaccount/SavingsAccount.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/train/CargoCar.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/train/CargoCar.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/train/Locomotive.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/train/Locomotive.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exercises/exercise08/train/TrainCar.java" afterPath="$PROJECT_DIR$/src/exercises14/exercise08/train/TrainCar.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/AccountTest.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/AccountTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/CalculatorTest.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/CalculatorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/DigitTest.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/DigitTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/LineEditorTest.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/LineEditorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/LocationTest.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/LocationTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/PersonTest2.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/PersonTest2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/RPNCalcTest.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/RPNCalcTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/RectangleTest.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/RectangleTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/StackTest.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/StackTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/encapsulation/UpOrDownCounterTest.java" afterPath="$PROJECT_DIR$/src/tests14/encapsulation/UpOrDownCounterTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/interfaces/CardComparatorTest.java" afterPath="$PROJECT_DIR$/src/tests14/interfaces/CardComparatorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/interfaces/CardContainerTest.java" afterPath="$PROJECT_DIR$/src/tests14/interfaces/CardContainerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/interfaces/NamedTest.java" afterPath="$PROJECT_DIR$/src/tests14/interfaces/NamedTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/interfaces/StringGridTest.java" afterPath="$PROJECT_DIR$/src/tests14/interfaces/StringGridTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/objectstructures/CardDeckTest.java" afterPath="$PROJECT_DIR$/src/tests14/objectstructures/CardDeckTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/objectstructures/CardHandTest.java" afterPath="$PROJECT_DIR$/src/tests14/objectstructures/CardHandTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/objectstructures/CardTest.java" afterPath="$PROJECT_DIR$/src/tests14/objectstructures/CardTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/objectstructures/PartnerTest.java" afterPath="$PROJECT_DIR$/src/tests14/objectstructures/PartnerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/objectstructures/PersonTest.java" afterPath="$PROJECT_DIR$/src/tests14/objectstructures/PersonTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/stateandbehavior/AccountTest.java" afterPath="$PROJECT_DIR$/src/tests14/stateandbehavior/AccountTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/stateandbehavior/CalculatorTest.java" afterPath="$PROJECT_DIR$/src/tests14/stateandbehavior/CalculatorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/stateandbehavior/DigitTest.java" afterPath="$PROJECT_DIR$/src/tests14/stateandbehavior/DigitTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/stateandbehavior/LineEditorTest.java" afterPath="$PROJECT_DIR$/src/tests14/stateandbehavior/LineEditorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/stateandbehavior/LocationTest.java" afterPath="$PROJECT_DIR$/src/tests14/stateandbehavior/LocationTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/stateandbehavior/RPNCalcTest.java" afterPath="$PROJECT_DIR$/src/tests14/stateandbehavior/RPNCalcTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/stateandbehavior/RectangleTest.java" afterPath="$PROJECT_DIR$/src/tests14/stateandbehavior/RectangleTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/stateandbehavior/StackTest.java" afterPath="$PROJECT_DIR$/src/tests14/stateandbehavior/StackTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tests/stateandbehavior/UpOrDownCounterTest.java" afterPath="$PROJECT_DIR$/src/tests14/stateandbehavior/UpOrDownCounterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/examples/banking/BankIterator.class" afterPath="$PROJECT_DIR$/bin/examples/banking/BankIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/examples/friends/Employee.class" afterPath="$PROJECT_DIR$/bin/examples/friends/Employee.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/examples/javafx/FruitsAndStuff.class" afterPath="$PROJECT_DIR$/bin/examples/javafx/FruitsAndStuff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/examples/javafx/FruitsAndStuff.java" afterPath="$PROJECT_DIR$/src/examples/javafx/FruitsAndStuff.java" />
+    </list>
+    <ignored path="TDT4100.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TDT4100" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/exercises15/exercise0/Rects.java" />
+        <option value="$PROJECT_DIR$/src/exercises15/exercise0/exercise00/Rects.java" />
+        <option value="$PROJECT_DIR$/src/exercises15/exercise00/Rects.java" />
+        <option value="$PROJECT_DIR$/src/exercises15/exercise00/RectsCore.java" />
+        <option value="$PROJECT_DIR$/src/exercises15/exercise00/RectsUI.java" />
+        <option value="$PROJECT_DIR$/src/exercises14/exercise01/lineeditor/LineEditor.java" />
+        <option value="$PROJECT_DIR$/src/exercises14/exercise01/account/Account.java" />
+        <option value="$PROJECT_DIR$/src/exercises15/exercise01/Digit.java" />
+        <option value="$PROJECT_DIR$/src/exercises15/exercise03/NimFX.java" />
+        <option value="$PROJECT_DIR$/src/exercises15/exercise03/NimFX.fxml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="830" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDT4100" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8_11 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDT4100" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDT4100" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDT4100" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDT4100" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDT4100" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDT4100" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="project.propDebugger" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Digit">
+    <configuration default="false" name="Rects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="exercises15.exercise0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="exercises15.exercise0.exercise00.Rects" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TDT4100" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RectsUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="exercises15.exercise00.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="exercises15.exercise00.RectsUI" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TDT4100" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Rects (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="exercises15.exercise00.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="exercises15.exercise00.Rects" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TDT4100" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="exercises14.exercise01.lineeditor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="exercises14.exercise01.lineeditor.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TDT4100" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Digit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="exercises15.exercise01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="exercises15.exercise01.Digit" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TDT4100" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Rects" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RectsUI" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Rects (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Digit" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Digit" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Rects (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RectsUI" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Rects" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bf1a861-d582-4ae0-8e96-ac381347cd8e" name="Default" comment="" />
+      <created>1420893864017</created>
+      <option name="number" value="Default" />
+      <updated>1420893864017</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise01/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="720">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/digit/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise01/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="720">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/digit/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="990">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise01/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="720">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/digit/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise01/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/lineeditor/LineEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="1140">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/lineeditor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="795">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/upordowncounter/UpOrDownCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/lineeditor/LineEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="1140">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/lineeditor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="795">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/upordowncounter/UpOrDownCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise00/Rects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1125">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="645">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise00/Rects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1125">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="615">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise00/Rects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise00/Rects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise00/Rects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise00/Rects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise08/asteroids/AsteroidsProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise08/asteroids/Asteroids.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="2535">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise08/asteroids/AsteroidsProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise08/asteroids/Asteroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040927693" vertical-offset="0" max-vertical-offset="733">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise08/asteroids/SpaceObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08185539" vertical-offset="0" max-vertical-offset="733">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise08/asteroids/BaseSpaceObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.24829468" vertical-offset="242" max-vertical-offset="1515">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise08/asteroids/AsteroidsProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="780">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise08/asteroids/Asteroids.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2535">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise00/RectsCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise00/RectsUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0797665" vertical-offset="165" max-vertical-offset="1080">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests14/stateandbehavior/LineEditorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57459676" vertical-offset="0" max-vertical-offset="1845">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise00/Rects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8548387" vertical-offset="371" max-vertical-offset="1125">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/rectangle/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7560484" vertical-offset="405" max-vertical-offset="2010">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests14/encapsulation/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2096775" vertical-offset="0" max-vertical-offset="1830">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/account/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3326613" vertical-offset="120" max-vertical-offset="870">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests14/stateandbehavior/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3326613" vertical-offset="60" max-vertical-offset="855">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/upordowncounter/UpOrDownCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5570292" vertical-offset="0" max-vertical-offset="754">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/lineeditor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3633952" vertical-offset="41" max-vertical-offset="795">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/lineeditor/LineEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14456233" vertical-offset="56" max-vertical-offset="1140">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5371353" vertical-offset="0" max-vertical-offset="754">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises15/exercise01/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29840848" vertical-offset="0" max-vertical-offset="754">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises14/exercise01/digit/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.602122" vertical-offset="236" max-vertical-offset="990">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

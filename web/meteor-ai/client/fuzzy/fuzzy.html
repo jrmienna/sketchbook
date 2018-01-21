@@ -1,0 +1,64 @@
+<template name="fuzzy">
+    <div class="ui basic segment">
+
+        <div class="ui segment">
+            <form class="ui form">
+                <div class="ui two fields">
+                    <div class="field">
+                        <label>Distance</label>
+                        <div class="ui input">
+                            <input id="distance" type="text">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Delta</label>
+                        <div class="ui input">
+                            <input id="delta" type="text">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="ui submit button">Get action</button>
+            </form>
+        </div>
+        <div class="ui segment">
+            <div class="ui segment">
+                <h3>Distance:</h3>
+                {{#with distance}}
+                    verySmall: {{ verySmall }} <br>
+                    small: {{ small }} <br>
+                    perfect: {{ perfect }} <br>
+                    big: {{ big }} <br>
+                    veryBig: {{ veryBig }} <br>
+                {{/with}}
+            </div>
+            <div class="ui segment">
+                <h3>Delta:</h3>
+                {{#with delta}}
+                    shrinkingFast: {{ shrinkingFast }} <br>
+                    shrinking: {{ shrinking }} <br>
+                    stable: {{ stable }} <br>
+                    growing: {{ growing }} <br>
+                    growingFast: {{ growingFast }} <br>
+                {{/with}}
+            </div>
+            <div class="ui segment">
+                <h3>Evaluated:</h3>
+                {{#with evaluated}}
+                    brakeHard: {{ brakeHard }} <br>
+                    slowDown: {{ slowDown }} <br>
+                    none: {{ none }} <br>
+                    speedUp: {{speedUp }} <br>
+                    floorIt: {{ floorIt }} <br>
+                {{/with}}
+            </div>
+            <div class="ui segment">
+                <h3>Aggregated:</h3>
+                {{ aggregated }}
+            </div>
+            <div class="ui segment">
+                <h3>Action:</h3>
+                {{result}}
+            </div>
+        </div>
+    </div>
+</template>

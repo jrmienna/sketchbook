@@ -1,0 +1,26 @@
+.party-scale{
+    background-color: red;
+    width: 25%;
+}
+.party-scale:after{
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+.party-scale h1 {
+    font-family: "Verdana", sans-serif;
+    font-size: 1.2em;
+}
+.party-scale-seg {
+    height: 25%;
+    padding: 5%;
+}
+.img-responsive {
+    width: 100%;
+    background-color: black;
+}
+.img-repsonsive:after{
+    content: '';
+    display: block;
+    padding-top: 20%;
+}

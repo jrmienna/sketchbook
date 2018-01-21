@@ -1,0 +1,152 @@
+.md-highlighting {
+    font-family: inherit;
+    font-size: inherit;
+    .code {
+        font-family: $font-family-monospace;
+        font-size: $font-size-monospace;
+    }
+    .pre {
+        color: $ced-color;
+        font-family: $font-family-monospace;
+        font-size: $font-size-monospace;
+        word-break: break-all;
+        [class*="language-"] {
+            color: $ced-color-dark;
+        }
+        * {
+            font-size: inherit !important;
+        }
+    }
+    .tag {
+        color: $ced-color;
+        font-weight: bold;
+        font-family: $font-family-monospace;
+        font-size: $font-size-monospace;
+        .punctuation, .attr-value, .attr-name {
+            font-weight: normal;
+        }
+    }
+    .latex,
+    .math {
+        color: $ced-color;
+    }
+    .entity {
+        font-style: italic;
+        font-family: $font-family-monospace;
+        font-size: $font-size-monospace;
+        color: $ced-color;
+    }
+    .table {
+        font-family: $font-family-monospace;
+        font-size: $font-size-monospace;
+        * {
+            font-size: inherit;
+        }
+    }
+    .comment {
+        color: $ced-color-light;
+    }
+    .keyword {
+        color: $ced-color-dark;
+        font-weight: bold;
+    }
+    .code,
+    .img,
+    .imgref,
+    .cl-toc {
+        background-color: $code-bg;
+        border-radius: $border-radius-base;
+        padding: 0.15em 0;
+    }
+    .cl-toc {
+        font-size: 2.8em;
+        padding: 0.15em;
+    }
+    .blockquote {
+        font-weight: 300;
+    }
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
+        font-weight: 600;
+    }
+    .h1,
+    .h11 {
+        font-size: 2em;
+    }
+    .h2,
+    .h22 {
+        font-size: 1.5em;
+    }
+    .h3 {
+        font-size: 1.17em;
+    }
+    .h4 {
+        font-size: 1em;
+    }
+    .h5 {
+        font-size: 0.83em;
+    }
+    .h6 {
+        font-size: 0.75em;
+    }
+    .cl-hash {
+        color: $ced-color-light;
+    }
+    .cl,
+    .hr {
+        color: $ced-color-light;
+        font-style: normal;
+        font-weight: normal
+    }
+    .em,
+    .em .cl {
+        font-style: italic;
+    }
+    .strong,
+    .strong .cl,
+    .term {
+        font-weight: bold;
+    }
+    .cl-del-text {
+        text-decoration: line-through
+    }
+    .url,
+    .email,
+    .cl-underlined-text {
+        text-decoration: underline;
+    }
+    .linkdef .url {
+        color: $ced-color-light;
+    }
+    .fn,
+    .inlinefn,
+    .sup {
+        position: relative;
+        top: -0.5em;
+        font-size: smaller;
+    }
+    .sub {
+        position: relative;
+        bottom: -0.25em;
+        font-size: smaller;
+    }
+    .img {
+        display: inline-block;
+    }
+    .img,
+    .imgref,
+    .link,
+    .linkref {
+        color: $ced-color-light;
+        .cl-underlined-text {
+            color: $ced-color-dark;
+        }
+    }
+    .cl-title {
+        color: $ced-color;
+    }
+}

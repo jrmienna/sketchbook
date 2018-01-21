@@ -1,0 +1,40 @@
+.new-user-form.panel {
+    overflow: auto;
+    .logo {
+        width: 180px;
+        height: 64px;
+        background-image: url('assets/images/logo.png');
+        background-size: 180px 60px;
+    }
+    & > * {
+        max-width: 500px;
+    }
+    .plastic-0 {
+        overflow: auto;
+        padding: 0 30px 30px;
+        border-radius: 3px;
+    }
+    .nav {
+        & > * {
+            margin: 0;
+            color: #fff;
+        }
+        md-input-container {
+            font-size: 30px;
+            width: 100%;
+        }
+        .md-button {
+            font-size: 26px;
+            line-height: 0;
+        }
+    }
+    .content {
+        padding: 30px;
+        border-radius: 6px;
+        background-color: transparentize(#fff, 0.75);
+    }
+    .terms {
+        font-size: 12px;
+        margin: 40px 0;
+    }
+}

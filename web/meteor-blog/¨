@@ -1,0 +1,44 @@
+Template.blog.events({
+    'submit #blogForm': function(e) {
+
+        e.preventDefault();
+
+        var title = $('#blogTitle').val().trim();
+        var body = $('#blogBody').val().trim();
+
+        // Call the method submitPost() from server
+        Meteor.call('submitPost', title, body);
+        $('#blogForm')[0].reset();
+    },
+
+    'keyup #blogTitle': function(e) {
+        e.preventDefault();
+        var title = $('#blogTitle').val().trim();
+        var body = $('#blogBody').val().trim();
+
+        if(title.length === 0) {
+            $('#postButton').addClass('disabled');
+        } else {
+            $('#postButton').removeClass('disabled');
+        }
+    },
+
+    'click #postButton': function(e) {
+        $('.alert').fadeIn();
+        $('.alert').delay(1000).fadeOut();
+        $('#postButton').addClass('disabled');
+    },
+
+    'click .close': function(e) {
+        e.preventDefault();
+        alert("OK");
+    }
+});
+
+Template.listBlogs.blogs = function() {
+    return Blogs.find().fetch().reverse();
+};
+
+Meteor.startup(function() {
+    $('#postButton').addClass('disabled');
+});

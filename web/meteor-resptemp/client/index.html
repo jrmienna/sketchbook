@@ -1,0 +1,219 @@
+<head>
+  <title>resptemp</title>
+</head>
+
+<body>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+      <span class="sr-only">70% Complete</span>
+    </div>
+  </div>
+  <div class="container">
+    {{> hello}}
+
+    <i class="fa fa-square-o"></i>
+    <i class="fa fa-picture-o"></i>
+    <i class="fa fa-line-chart"></i>
+    <i class="fa fa-expand-o"></i>
+    <i class="fa fa-compress-o"></i>
+    <i class="fa fa-arrows-v"></i>
+    <i class="fa fa-caret-left"></i>
+    <i class="fa fa-undo"></i>
+    <i class="fa fa-chain"></i>
+    <i class="fa fa-chain-broken"></i>
+    <i class="fa fa-crosshairs"></i>
+    <i class="fa fa-flash"></i>
+    <i class="fa fa-magnet"></i>
+    <i class="fa fa-pencil"></i>
+    <i class="fa fa-gear"></i>
+    <i class="fa fa-remove"></i>
+    <i class="fa fa-plus-square-o"></i>
+
+    <div class="row">
+
+      <style>
+        .guide-v{
+          z-index: 8000;
+          top: 0;
+          left: 50%;
+          position: absolute;
+          width: 1px;
+          height: 100%;
+          background-color: violet;
+        }
+        .guide-h{
+          z-index: 8000;
+          top: 50%;
+          left: 0;
+          position: absolute;
+          height: 1px;
+          width: 100%;
+          background-color: violet;
+        }
+
+      </style>
+
+      <div class="guide-v"></div>
+      <div class="guide-h"></div>
+
+    
+      <div class="col-md-3 dropzone"> 
+        <div class="col-md-12 dropzone" style="height: 100px;"></div>
+        <div class="col-md-12 dropzone" style="height: 100px;"></div>
+        <div class="col-md-12 dropzone" style="height: 100px;"></div>
+        <div class="col-md-12 dropzone" style="height: 100px;"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="col-md-1 dropzone" style="height: 20px"></div>
+        <div class="col-md-1 dropzone" style="height: 20px"></div>
+        <div class="col-md-1 dropzone" style="height: 20px"></div>
+        <div class="col-md-1 dropzone" style="height: 20px"></div>
+        <div class="col-md-1 dropzone" style="height: 20px"></div>
+        <div class="col-md-1 dropzone" style="height: 20px"></div>
+        <div class="col-md-1 dropzone" style="height: 20px"></div>
+      </div>
+
+      <div id="dragbox" class="draggable drag-drop"></div>
+    
+    </div>
+  </div>
+
+  <footer>
+      <div class="col-md-12" style="font-size: 12px;">
+        <ul class="list-inline">
+          <li>x: <a id="x-pos"></a></li>
+          <li>y: <a id="y-pos"></a></li>
+          <li>distance moved (px): <a id="distance-moved">0</a></li>
+          <li>moved x: <a id="distance-moved-x">0</a></li>
+          <li>moved y: <a id="distance-moved-y">0</a></li>
+        </ul>
+      </div>
+  </footer>
+
+  <script>
+    $(function() {
+
+      console.log($('#distance-moved').text());
+      $('#distance-moved').text(100);
+      console.log($('#distance-moved').text());
+
+      function renderGrid() {
+        var width = parseInt($('#dragbox').css('width'), 10);
+        var height = parseInt($('#dragbox').css('height'), 10);
+
+        var x = $('#dragbox').position().left;
+        var y = $('#dragbox').position().top;
+
+
+        $('.guide-v').css('left', x + width/2);
+        $('.guide-h').css('top', y + height/2);
+      }
+
+      function renderNumbers(x, y) {
+          $('#x-pos').text(x);
+          $('#y-pos').text(y);
+      }
+
+      renderGrid();
+
+      interact('.dropzone').dropzone({
+        // only accept elements matching this CSS selector
+        accept: '.drag-drop',
+        // Require a 50% element overlap for a drop to be possible
+        overlap: 0.75,
+
+        // listen for drop related events:
+
+        ondropactivate: function (event) {
+          // add active dropzone feedback
+          event.target.classList.add('drop-active');
+        },
+        ondragenter: function (event) {
+          var draggableElement = event.relatedTarget,
+              dropzoneElement = event.target;
+
+          // feedback the possibility of a drop
+          dropzoneElement.classList.add('drop-target');
+          draggableElement.classList.add('can-drop');
+          draggableElement.textContent = 'Dragged in';
+        },
+        ondragleave: function (event) {
+          // remove the drop feedback style
+          event.target.classList.remove('drop-target');
+          event.relatedTarget.classList.remove('can-drop');
+          event.relatedTarget.textContent = 'Dragged out';
+        },
+        ondrop: function (event) {
+          event.relatedTarget.textContent = 'Dropped';
+        },
+        ondropdeactivate: function (event) {
+          // remove active dropzone feedback
+          event.target.classList.remove('drop-active');
+          event.target.classList.remove('drop-target');
+        } 
+      });
+
+      interact('.draggable').draggable({
+        // enable inertial throwing
+        inertia: true,
+        // keep the element within the area of it's parent
+        restrict: {
+          restriction: ".container",
+          endOnly: true,
+          elementRect: { top: 0, left: 0, bottom: 1, right: 1 }
+        },  
+        onmove: function (event) {
+          var target = event.target,
+              // keep the dragged position in the data-x/data-y attributes
+              x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx,
+              y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+
+          // translate the element
+          target.style.webkitTransform =
+          target.style.transform =
+            'translate(' + x + 'px, ' + y + 'px)';
+
+          // update the posiion attributes
+          target.setAttribute('data-x', x);
+          target.setAttribute('data-y', y);
+
+
+          renderGrid();
+          renderNumbers(x, y);
+        },
+
+        onend: function (event) {
+          $('#distance-moved').text((Math.sqrt(event.dx * event.dx + event.dy * event.dy)|0));
+
+          $('#distance-moved-x').text(event.dx);
+          $('#distance-moved-y').text(event.dy);
+
+          renderGrid();
+        }
+
+      });
+
+      interact('.draggable')
+      .resizable(true)
+      .on('resizemove', function (event) {
+        var target = event.target;
+
+        // add the change in coords to the previous width of the target element
+        var newWidth  = parseFloat(target.width ) + event.dx,
+            newHeight = parseFloat(target.height) + event.dy;
+
+        console.log(newWidth);
+
+        // update the element's style
+        target.style.width  = newWidth + 'px';
+        target.style.height = newHeight + 'px';
+
+        target.textContent = newWidth + '×' + newHeight;
+      });
+
+    });
+  </script>
+</body>
+
+<template name="hello">
+</template>

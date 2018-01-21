@@ -1,0 +1,38 @@
+<head>
+  <title>meteor-account</title>
+</head>
+
+<body>
+    <div class="container">
+        {{# if currentUser }}
+            {{> menubar }}
+        {{ else }}
+            <div class="formWrapper">
+                {{> login }}
+            </div>
+        {{/ if }}
+    </div>
+</body>
+
+<template name="menubar">
+    {{ currentUser.username }}
+    <button id="logoutButton" class="ui button" name="logoutButton">Logout</button>
+</template>
+
+<template name="login">
+    <form id="loginForm" class="ui form" action="" method="post">
+        <div class="two field">
+            <div class="field">
+                <input id="loginUsername" type="text" name="username" placeholder="Brukernavn">
+            </div>
+            <div class="field">
+                <input id="loginPassword" type="password" name="password" placeholder="Passord">
+            </div>
+        </div>
+        {{# if loggingIn }}
+        <button class="ui loading submit button" name="loginButton">Login</button>
+        {{ else }}
+        <button class="ui submit button" name="loginButton">Login</button>
+        {{/ if}}
+    </form>
+</template>

@@ -1,0 +1,10 @@
+body.file.dragging * {
+	cursor: move !important;
+}
+
+.file.dragging.panel {
+    pointer-events: none;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+}

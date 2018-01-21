@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block base_body %}
+
+<div class="container-fluid">
+    <div class="container-inner">
+        <h1>Arkiv</h1>
+        <div class="row">
+            <div class="col-md-5">
+                {% for object in object_list %}
+                    <h3>{{ object.title }}</h3>
+                    <h5>{{ object.date  }}</h5>
+                    <h5>{{ object.description }}</h5>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

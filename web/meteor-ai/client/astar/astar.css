@@ -1,0 +1,40 @@
+/* CSS declarations go here */
+
+body {
+    height: 100%;
+    width: 100%;
+}
+.cell-wrapper {
+    width: 100%;
+    height: 280px;
+    padding: 1em;
+}
+.cell {
+    width: 4%;
+    height: 40px;
+    margin-right: 1px;
+    float: left;
+}
+.break {
+    width: 100%;
+    height: 1px;
+    float: left;
+}
+.empty {
+    background: #444;
+}
+.wall {
+    background: black;
+}
+.start {
+    background: deepskyblue;
+}
+.goal {
+    background: yellowgreen;
+}
+.open {
+    background: #444;
+}
+.closed {
+    background: #222;
+}

@@ -1,0 +1,12 @@
+<template name="boardSearch">
+    <div class="cell-wrapper">
+        {{#each board}}
+          {{#if isBreak this }}
+              <span class="break"></span>
+          {{ else }}
+              <span class="{{ this }} cell"></span>
+          {{/if}}
+        {{/each}}
+    </div>
+    <button class="ui button">Start</button>
+</template>

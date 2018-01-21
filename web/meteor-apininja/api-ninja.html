@@ -1,0 +1,20 @@
+<head>
+  <title>api-ninja</title>
+</head>
+
+<body>
+  <h1>Welcome to API-Ninja!</h1>
+
+  {{> soundcloud }}
+  {{> spotify }}
+</body>
+
+<template name="soundcloud">
+    <!--<div id="soundcloudWidget"></div>-->
+    <input type="button" id="loadTracks" class="button big" value="Get hottest track" />
+    <div id="track"></div>
+</template>
+
+<template name="spotify">
+    <!--<div id="spotifyWidget"></div>-->
+</template>

@@ -1,0 +1,11 @@
+﻿Build started 31.08.2015 15.22.30.
+     1>Project "C:\Users\mienna\Dropbox\OpenGL\hello_opengl\Hello OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mienna\Dropbox\OpenGL\hello_opengl\Debug\Hello OpenGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\mienna\Dropbox\OpenGL\hello_opengl\freeglut-msvc\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\mienna\Dropbox\OpenGL\hello_opengl\Debug\Hello OpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mienna\Dropbox\OpenGL\hello_opengl\Debug\Hello OpenGL.lib" /MACHINE:X86 Debug\main.obj
+         Debug\visuals.obj
+         Hello OpenGL.vcxproj -> C:\Users\mienna\Dropbox\OpenGL\hello_opengl\Debug\Hello OpenGL.exe
+     1>Done Building Project "C:\Users\mienna\Dropbox\OpenGL\hello_opengl\Hello OpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72

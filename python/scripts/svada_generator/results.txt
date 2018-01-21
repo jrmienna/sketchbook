@@ -1,0 +1,84 @@
+products = [
+    "basic",
+    "lowprice",
+    "green",
+    "premium",
+    "high-performance",
+    "smart",
+    "mobile",
+    "safe"
+];
+
+engines = [
+    "precooled spin engine",
+    "rotary vapor engine",
+    "electric pulse engine",
+    "water beam engine",
+    "turbo plasma engine",
+    "molecular fan engine",
+    "augmented shaft engine",
+    "air anilox engine",
+    "sputter ram engine",
+    "green fusion engine",
+    "magnetron fission engine",
+    "virtual steam engine",
+    "nuclear prop engine"
+];
+
+materials = [
+    "meta platinum",
+    "optical nano tube",
+    "bio rock",
+    "degradable crystal",
+    "smart nano fiber",
+    "self-cleaning aluminum",
+    "electronic crystal",
+    "morphable meta platinum",
+    "optical fiber",
+];
+
+coatings = [
+    "anti-grafitti",
+    "anti-scratch",
+    "anti-fog",
+    "anti-reflective",
+    "super-reflective",
+    "anti-corrosion",
+    "uv-absorbent",
+    "self-cleaning",
+    "waterproof",
+    "magnetic",
+    "conductive",
+    "insulating",
+];
+
+finish = [
+    "glossy",
+    "matte",
+    "metallic",
+    "pearlescent",
+]
+
+software = [
+    "spin controller",
+    "cooling prevention",
+    "strap communication",
+    "weather warning",
+    "stability pilot",
+    "brake pilot",
+    "blindspot warning",
+    "pressure controller",
+    "wind monitor",
+    "ufo detection",
+    "ufo communication",
+    "exhaust alert",
+    "pressure detection",
+    "weather protection",
+];
+
+extra = [
+    "cupholder",
+    "parachute",
+    "integrated helmet",
+];
+

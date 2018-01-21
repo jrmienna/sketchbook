@@ -1,0 +1,24 @@
+body{
+    background-color: #eee;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: white;
+    padding-bottom: 10px;
+}
+hr {
+    border-color: #ccc;
+}
+.row {
+    margin: 50px 0;
+}
+.alert {
+    z-index: 5000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    border-radius: 0;
+}

@@ -1,0 +1,53 @@
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #DDD;
+}
+.container {
+  background: #EEE;
+}
+.progress-bar {
+  position: fixed;
+  width: 100%;
+  height: 20px;
+
+}
+
+#dragbox {
+  z-index: 60000;
+  background-color: cadetblue;
+  height: 60px;
+  width: 100px;
+}
+
+.dropzone {
+  background-color: #ccc;
+  border: dashed 2px transparent;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.drop-active {
+  border-color: #666;
+}
+
+.drop-target {
+  background-color: #29e;
+}
+
+.drag-drop {
+  display: inline-block;
+  min-width: 40px;
+  padding: 2em 0.5em;
+
+  background-color: #99e;
+  border: solid 1px white;
+
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+
+  transition: background-color 0.3s;
+}
+
+.drag-drop.can-drop { background-color: #4e4; }

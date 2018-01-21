@@ -1,0 +1,86 @@
+<head>
+    <title>meteor-calendar</title>
+</head>
+
+<body></body>
+
+<template name="notFound">not found</template>
+<template name="loading">loading</template>
+
+<template name="layout">
+    <div class="main container">
+        {{> yield}}
+    </div>
+</template>
+
+
+<template name="home">
+    <div class="ui breadcrumb">
+        <div class="active section">Hjem</div>
+    </div>
+    <div class="ui items">
+        <div class="item">
+            {{> card2}}
+        </div>
+        <div class="item">
+            {{> card2}}
+        </div>
+    </div>
+</template>
+
+<template name="calendar">
+    <div class="ui breadcrumb">
+        <a class="section" href="/">Hjem</a>
+        <i class="right chevron icon divider"></i>
+        <div class="active section">Room 1 Timeplan</div>
+    </div>
+    <div class="ui segment">
+        <input type="hidden" name="lastMod" value="{{ lastMod }}" id="lastMod">
+        <div id="calendar"></div>
+    </div>
+</template>
+
+<template name="card2">
+    <div class="ui green card">
+        <div class="ui right corner label">
+            <a href="#">
+                <i class="wizard icon"></i>
+            </a>
+        </div>
+        <div class="content">
+            <a class="header">Rom 2</a>
+            <div class="meta"></div>
+            <div class="description">
+                <p>Kapasitet: {{ capacity }}</p>
+                <p>Utstyr:
+                    <ul>
+                        {{# each equiptment}}
+                            <li>{{ type }}</li>
+                        {{/ each}}
+                    </ul>
+                </p>
+            </div>
+        </div>
+        {{# if booked }}
+            <a class="ui animated vertical top attached red button" href="/schedule/{{ roomId }}">
+                <div class="hidden content">
+                    <i class="calendar icon"></i>
+                    Se timeplan
+                </div>
+                <div class="visible content">
+                    Opptatt til {{ nextReservationEnd }}
+                </div>
+            </a>
+            {{ else }}
+            <a class="ui animated vertical bottom attached green button" href="/schedule/{{ roomId }}">
+                <div class="hidden content">
+                    <i class="add icon"></i>
+                    Reserver
+                </div>
+                <div class="visible content">
+                    Ledig til {{ nextReservationStart }}
+                </div>
+            </a>
+        {{/ if }}
+    </div>
+</template>

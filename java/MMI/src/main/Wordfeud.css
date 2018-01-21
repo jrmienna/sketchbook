@@ -1,0 +1,42 @@
+.root {
+    -fx-background: black;
+}
+
+.dw {-fx-fill: linear-gradient(#B46F1F, #BD7727);}
+.dl {-fx-fill: linear-gradient(#759A66, #7EA16F);}
+.tl {-fx-fill: linear-gradient(#388498, #3E90A2);}
+.star {-fx-fill: linear-gradient(#5D405C, #5F4961);}
+.std {-fx-fill: linear-gradient(#282A30, #30323B);}
+
+.tile {
+    -fx-fill: white;
+    -fx-opacity: 0.85;
+}
+
+.numb {
+    -fx-font-size: 16;
+    -fx-font-family: "Avenir";
+}
+
+.star-letter {
+    -fx-fill: white;
+    -fx-font-size: 30;
+}
+.letter {
+    -fx-font-size: 40;
+    -fx-font-family: "Andale Mono";
+}
+
+.txt {
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+    -fx-font-family: "Arial";
+    -fx-font-color: white;
+    -fx-font-fill: white;
+    -fx-fill: white;
+}
+
+.rect {
+    -fx-arc-height: 8;
+    -fx-arc-width: 8;
+}

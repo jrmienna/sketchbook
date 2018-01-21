@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="4.0" styleClass="root" vgap="4.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.WordfeudScreenController">
+
+    <children>
+        <StackPane GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="2" GridPane.rowIndex="0">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="dw" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="7.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="DW" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="3" GridPane.rowIndex="0">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="4" GridPane.rowIndex="0">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="5" GridPane.rowIndex="0">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="6" GridPane.rowIndex="0">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="star" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text layoutX="13.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="star-letter" text="★" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <!--###################################################################################################-->
+
+        <StackPane GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="dl" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="11.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="DL" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="dl" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="11.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="DL" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="5" GridPane.rowIndex="1">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="6" GridPane.rowIndex="1">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <!--###################################################################################################-->
+
+        <StackPane GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="tl" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="TL" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="tl" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="TL" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="5" GridPane.rowIndex="2">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="6" GridPane.rowIndex="2">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <!--###################################################################################################-->
+
+        <StackPane GridPane.columnIndex="0" GridPane.rowIndex="3">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="dw" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="7.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="DW" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="4" GridPane.rowIndex="3">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="5" GridPane.rowIndex="3">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="dl" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="11.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="DL" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="6" GridPane.rowIndex="3">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <!--###################################################################################################-->
+
+        <StackPane GridPane.columnIndex="0" GridPane.rowIndex="4">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="tl" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="TL" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="4" GridPane.rowIndex="4">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="5" GridPane.rowIndex="4">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="6" GridPane.rowIndex="4">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="dw" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="7.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="DW" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <!--###################################################################################################-->
+
+        <StackPane GridPane.columnIndex="0" GridPane.rowIndex="5">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="1" GridPane.rowIndex="5">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="dw" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="7.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="DW" textAlignment="CENTER" />
+                    </children>
+                </Group>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="tile" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text layoutX="9.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="letter" text="R" />
+                        <Text layoutX="35.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="numb" text="2" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="2" GridPane.rowIndex="5">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+
+                    </children>
+                </Group>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="tile" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text layoutX="9.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="letter" text="I" />
+                        <Text layoutX="35.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="numb" text="2" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="3" GridPane.rowIndex="5">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="tile" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text layoutX="9.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="letter" text="V" />
+                        <Text layoutX="35.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="numb" text="4" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="4" GridPane.rowIndex="5">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="tile" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text layoutX="9.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="letter" text="E" />
+                        <Text layoutX="35.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="numb" text="1" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="5" GridPane.rowIndex="5">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="dl" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="11.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="DL" textAlignment="CENTER" />
+                    </children>
+                </Group>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="tile" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text layoutX="9.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="letter" text="R" />
+                        <Text layoutX="35.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="numb" text="2" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="6" GridPane.rowIndex="5">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <!--###################################################################################################-->
+
+        <StackPane GridPane.columnIndex="0" GridPane.rowIndex="6">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="dl" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="11.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="DL" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="1" GridPane.rowIndex="6">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="2" GridPane.rowIndex="6">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="3" GridPane.rowIndex="6">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="4" GridPane.rowIndex="6">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="tl" />
+                            </styleClass>
+                        </Rectangle>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="TL" textAlignment="CENTER" />
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="5" GridPane.rowIndex="6">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+        <StackPane GridPane.columnIndex="6" GridPane.rowIndex="6">
+            <children>
+                <Group>
+                    <children>
+                        <Rectangle height="50" width="50">
+                            <styleClass>
+                                <String fx:value="rect" />
+                                <String fx:value="std" />
+                            </styleClass>
+                        </Rectangle>
+                    </children>
+                </Group>
+            </children>
+        </StackPane>
+
+    </children>
+
+    <padding>
+        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+    </padding>
+
+
+    <stylesheets>
+        <URL value="@Wordfeud.css" />
+    </stylesheets>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

@@ -1,0 +1,57 @@
+<template name="home">
+  <div class="panel panel-default" style="width: 500px; margin: 30px; padding: 10px;">
+    <div class="panel-heading">
+      <ul class="list-inline">
+        <li>
+          <span class="fa fa-pencil-square"></span>
+          <label for="post-text">Oppdater status</label>
+        </li>
+        <li>
+          <span class="fa fa-image"></span>
+          <label for="post-text">Legg til bilde</label>
+        </li>
+        <li>
+          <span class="fa fa-book"></span>
+          <label for="post-text">Opprett album</label>
+        </li>
+      </ul>
+    </div>
+    <div class="panel-body">
+      <input class="input-large" type="text" name="post-text" value="" id="post-text" placeholder="Whats on your mind?">
+    </div>
+    <div class="panel-footer" style="height: 60px;">
+
+      <div class="pull-left">
+        <ul class="list-inline" style="font-size: 20px;">
+          <li><span class="fa fa-camera"></span></li>
+          <li><span class="fa fa-tag"></span></li>
+          <li><span class="fa fa-smile-o"></span></li>
+          <li><span class="fa fa-map-marker"></span></li>
+        </ul>
+      </div>
+
+      <div class="pull-right">
+        <ul class="list-inline">
+          <li>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                <span class="fa fa-globe"></span>
+                Offentlig
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Offentlig</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <button class="btn btn-info">Publiser</button>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+</template>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane onKeyTyped="#handleKeyTyped" prefWidth="320.0" styleClass="root" stylesheets="@Calculator.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ov1.calculator.Controller">
+   <children>
+      <AnchorPane>
+         <children>
+            <Label alignment="BOTTOM_RIGHT" prefHeight="130.0" prefWidth="320.0" text="1,478" textFill="WHITE">
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+         </children></AnchorPane>
+      <GridPane styleClass="white-gradient">
+         <children>
+            <Button onMouseClicked="#clear" text="C" GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <styleClass>
+                  <String fx:value="button-upper" />
+                  <String fx:value="button-grey" />
+               </styleClass></Button>
+            <Button text="+/−" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <styleClass>
+                  <String fx:value="button-upper" />
+                  <String fx:value="button-grey" />
+               </styleClass></Button>
+            <Button text="\%" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <styleClass>
+                  <String fx:value="button-upper" />
+                  <String fx:value="button-grey" />
+               </styleClass></Button>
+
+            <Button styleClass="button-grey" text="7" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button styleClass="button-grey" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button styleClass="button-grey" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button styleClass="button-grey" text="4" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Button styleClass="button-grey" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button styleClass="button-grey" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button styleClass="button-grey" text="1" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <Button styleClass="button-grey" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button styleClass="button-grey" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button prefWidth="160.0" styleClass="button-grey" text="0" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="4" />
+            <Button styleClass="button-grey" text="." GridPane.columnIndex="2" GridPane.rowIndex="4" />
+         </children>
+
+      </GridPane>
+      <VBox styleClass="orange-gradient">
+         <children>
+            <Button onMouseClicked="#divide" styleClass="button-orange" text="÷" />
+            <Button onMouseClicked="#multiply" styleClass="button-orange" text="×" />
+            <Button onMouseClicked="#subtract" styleClass="button-orange" text="—" />
+            <Button onMouseClicked="#add" styleClass="button-orange" text="+" />
+            <Button onMouseClicked="#getResult" styleClass="button-orange" text="=" />
+         </children>
+      </VBox>
+   </children>
+    
+</FlowPane>
