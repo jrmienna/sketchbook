@@ -1,0 +1,4 @@
+pick==0.6.3
+demjson==2.2.4
+requests==2.18.4
+AST==0.0.2
