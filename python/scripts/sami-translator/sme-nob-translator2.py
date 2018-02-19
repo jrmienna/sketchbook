@@ -17,83 +17,6 @@ import demjson
 import requests
 from pick import pick
 
-#def format_example(ex):
-#    return '' + ex['x'].replace('.','') + '\t' + ex['xt'].replace('.','')
-
-#def format_translations(term, translations):
-#    return '' + term + '\t' + ', '.join(tr['#text'] for tr in translations)
-
-# first_lang = 'sme'
-# second_lang = 'nob'
-# dict = 'smenob'
-
-# dict_path = 'dict'
-# translations_path = 'tg.t'
-# translation_text_key = '#text'
-# examples_path = 'tg.xg'
-# example_first_lang_key = 'x'
-# example_second_lang_key = 'xt'
-
-def parse_response(term, response):
-    if not response:
-        return []
-    translations = []
-    examples = []
-    for res in response:
-        if res['dict'] == 'smenob' and 'tg' in res:
-            if 't' in res['tg']:
-                t = res['tg']['t']
-                if type(t) is dict:
-                    #if t['pos'] != 'A': continue
-                    translations.append(t)
-                else:
-                    for trans in t:
-                        #if trans['pos'] != 'A': continue
-                        translations.append(trans)
-            if 'xg' in res['tg']:
-                xg = res['tg']['xg']
-                if type(xg) is dict:
-                    examples.append(xg)
-                else:
-                    for example in xg:
-                        examples.append(example)
-
-    translation = format_translations(term, translations)
-    print translation
-    return [translation] + examples
-
-def translate(path, result_path):
-    parsed = []
-    base_url = 'http://satni.uit.no:8080/exist/restxq/satni/article/'
-
-    with open(path) as f:
-        lines = f.readlines()
-        json_string = None
-        for line in lines:
-            try:
-                term = line.decode('utf-8').strip().lower()
-                url = base_url + term
-                print url
-                r = requests.get(url)
-                json_string = r.text
-                # TODO: do search when response is None
-                parsed += parse_response(term, r.json())
-            except Exception as e:
-                print e
-                json_string = json_string[1:-1]
-                parsed += parse_response(term, [json.loads(json_string)])
-                continue
-        f.close()
-
-    if len(parsed):
-        f = open(result_path, 'w')
-        for line in parsed:
-            f.write(line.encode('utf-8').strip() + '\n')
-        f.close()
-    else:
-        print 'No results'
-
-
 def get_article(lemma):
     url = 'http://satni.uit.no:8080/exist/restxq/satni/article/' + lemma
     print url
@@ -122,35 +45,6 @@ def get_paradigm(lemma):
         return [json.loads(json_string)]
     return None
 
-def get_examples(article):
-    dict_path = 'dict'
-    translations_path = 'tg.t'
-    translation_text_key = '#text'
-    examples_path = 'tg.xg'
-    example_first_lang_key = 'x'
-    example_second_lang_key = 'xt'
-
-    articles = []
-    for res in article:
-        if res['dict'] == 'smenob' and 'tg' in res:
-            article = {}
-            article['examples'] = []
-            if 't' in res['tg']:
-                trans = res['tg']['t']
-                if type(trans) is dict:
-                    article['translation'] = trans['pos'] + ' ' + trans['#text']
-                else:
-                    article['translation'] = ', '.join(t['pos'] + ' ' + t['#text'] for t in trans)
-            if 'xg' in res['tg']:
-                xg = res['tg']['xg']
-                if type(xg) is dict:
-                    article['examples'].append(xg)
-                else:
-                    for example in xg:
-                        article['examples'].append(example)
-            articles.append(article)
-    return articles
-
 def lookup(term):
     url = 'http://sanit.oahpa.no/lookup/sme/nob/?lookup=' + term
     print url
@@ -159,22 +53,6 @@ def lookup(term):
         return None
     return response['result'][0]
 
-def main(path, result_path):
-    translate(path, result_path)
-
-# row = ''
-# results = lookup('aniiga')
-# lemma = None
-# for result in results:
-    # for term in result['lookups']:
-        # print term['left'] + '\t' + ', '.join(term['right'])
-        # row += term['left'] + '\t' + ', '.join(term['right'])
-        # lemma = term['left']
-
-#if lemma:
-#    article = get_article(lemma)
-#    examples = get_examples(article)
-#    row += ';' + '\t'.join(examples)
 
 # print row
 def parse_pos(pos):
@@ -269,18 +147,13 @@ def format_paradigm(row):
     return string
 
 # input
-# result 1
-# result 2
-# result 3
-# result 4
-# result 5
-
-# sme
-# pos
-# nob
-# related
-# personal note
-# paradigm
+# result_1
+# examples_1
+# paradigm_1
+#...
+# result_5
+# examples_5
+# paradigm_5
 
 data = []
 
@@ -321,36 +194,3 @@ for row in data:
         continue
 f.close()
 
-#rows_short.append(term['left'] + '\t' + ', '.join(term['right']) + '\n')
-
-#f = open('./results_full.txt', 'w')
-#for row in rows:
-    #f.write(row.encode('utf-8').strip() + '\n')
-#f.close()
-
-#if __name__ == "__main__":
-#    options = ['Sami \t-->\t Norwegian']
-#    option, index = pick(options, 'Select translator')
-#
-#    valid_path = False
-#    while not valid_path:
-#        try:
-#            path = raw_input("Enter path to .txt file: \n")
-#            dirname = os.path.dirname(path)
-#            filename, extension = os.path.basename(path).split('.')
-#            assert os.path.exists(path), "Couldn't find file at: " + str(path)
-#            assert os.path.isfile(path), "Couldn't find file at: " + str(path)
-#            assert extension == 'txt', "File must have .txt extension"
-#            valid_path = True
-#        except Exception as e:
-#            print e
-#
-#    should_save = raw_input("Do you want to save results? (Y/n)") or 'Y'
-#    if should_save.lower() == 'y':
-#        default_result_path = dirname + '/' + filename + '.csv'
-#        result_path = raw_input("Save as (" + default_result_path + "): ") or default_result_path
-#        print result_path
-#
-#    path = './test.txt'
-#    result_path = './test.csv'
-#    main(path, result_path)
